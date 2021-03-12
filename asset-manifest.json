@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AnbennarIdeaVariationPolicies/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/AnbennarIdeaVariationPolicies/static/js/main.1b9d2b72.chunk.js",
+    "main.js.map": "/AnbennarIdeaVariationPolicies/static/js/main.1b9d2b72.chunk.js.map",
+    "runtime-main.js": "/AnbennarIdeaVariationPolicies/static/js/runtime-main.37a3a1bb.js",
+    "runtime-main.js.map": "/AnbennarIdeaVariationPolicies/static/js/runtime-main.37a3a1bb.js.map",
+    "static/js/2.aa41aa26.chunk.js": "/AnbennarIdeaVariationPolicies/static/js/2.aa41aa26.chunk.js",
+    "static/js/2.aa41aa26.chunk.js.map": "/AnbennarIdeaVariationPolicies/static/js/2.aa41aa26.chunk.js.map",
+    "static/js/3.ca398462.chunk.js": "/AnbennarIdeaVariationPolicies/static/js/3.ca398462.chunk.js",
+    "static/js/3.ca398462.chunk.js.map": "/AnbennarIdeaVariationPolicies/static/js/3.ca398462.chunk.js.map",
+    "index.html": "/AnbennarIdeaVariationPolicies/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/AnbennarIdeaVariationPolicies/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.aa41aa26.chunk.js.LICENSE.txt": "/AnbennarIdeaVariationPolicies/static/js/2.aa41aa26.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37a3a1bb.js",
+    "static/js/2.aa41aa26.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.1b9d2b72.chunk.js"
+  ]
+}
