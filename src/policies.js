@@ -13,14 +13,14 @@ idea_variation_act_556 = {
 \tpotential = {
 \t\thas_idea_group = economic_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = economic_ideas
 \t\tfull_idea_group = quantity_ideas
-\t}
-
+\t}\t\t
+\t
 \tland_forcelimit_modifier = 0.15
 
 \tai_will_do = {
@@ -28,7 +28,7 @@ idea_variation_act_556 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { army_size_percentage = 0.9 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tarmy_size_percentage = 1.1
@@ -44,7 +44,7 @@ idea_variation_act_556 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tarmy_size_percentage = 2.5
-\t\t}
+\t\t}\t\t
 \t}
 
 }
@@ -58,9 +58,9 @@ idea_variation_act_557 = {
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
 \t\tfull_idea_group = maritime_ideas
@@ -73,11 +73,11 @@ idea_variation_act_557 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { navy_size = 20 }
-\t\t}
+\t\t}\t\t
 \t}
 
 }
-
+\t
 
 
 idea_variation_act_558 = {
@@ -87,9 +87,9 @@ idea_variation_act_558 = {
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = spy_ideas
@@ -97,8 +97,8 @@ idea_variation_act_558 = {
 
 \tglobal_spy_defence = 0.3
 \tspy_offence = 0.2
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -107,20 +107,20 @@ idea_variation_act_558 = {
 
 
 idea_variation_act_559 = {
-\tmonarch_power = DIP
+\tmonarch_power = DIP  
 
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\tOR = {
 \t\thas_idea_group = aristo0
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tOR = {
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
@@ -130,13 +130,13 @@ idea_variation_act_559 = {
 
 \tyearly_absolutism = 0.75
 \tyearly_corruption = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { cavalry_fraction = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tcavalry_fraction = 0.28
@@ -151,7 +151,7 @@ idea_variation_act_559 = {
 \t\t}
 \t}
 }
-
+ 
 idea_variation_act_560 = {
 \tmonarch_power = ADM
 
@@ -159,22 +159,22 @@ idea_variation_act_560 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = defensive_ideas
 \t}
 
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
 
 }
-
+ 
 idea_variation_act_561 = {
 \tmonarch_power = DIP
 
@@ -182,20 +182,20 @@ idea_variation_act_561 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = economic_ideas
-
+\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tdiplomats = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
-}
+} 
 
 
 
@@ -207,22 +207,22 @@ idea_variation_act_562 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = quality_ideas
 \t}
 
 \tarmy_tradition_decay = -0.01
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.75
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { army_tradition = 2 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tarmy_tradition = 30
@@ -239,15 +239,15 @@ idea_variation_act_562 = {
 }
 
 idea_variation_act_563 = {
-\tmonarch_power = ADM
+\tmonarch_power = ADM\t
 
 
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = quantity_ideas
@@ -255,7 +255,7 @@ idea_variation_act_563 = {
 
 \tmercenary_manpower = 0.15
 \tmercenary_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -268,16 +268,16 @@ idea_variation_act_564 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = administrative_ideas
 \t}
 
-\tglobal_trade_goods_size_modifier = 0.15
-
+\tglobal_trade_goods_size_modifier = 0.15\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -288,11 +288,11 @@ idea_variation_act_565 = {
 
 
 \tpotential = {
-
+\t
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -302,7 +302,7 @@ idea_variation_act_565 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -320,15 +320,19 @@ idea_variation_act_565 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
+\t
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
-
+\t\t
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -338,7 +342,7 @@ idea_variation_act_565 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -356,6 +360,10 @@ idea_variation_act_565 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
 \t\t}
 \t}
 
@@ -376,7 +384,7 @@ idea_variation_act_565 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -392,7 +400,7 @@ idea_variation_act_565 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -400,7 +408,7 @@ idea_variation_act_565 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 8
-\t\t}
+\t\t}\t\t
 \t}
 
 }
@@ -412,16 +420,33 @@ idea_variation_act_566 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = economic_ideas
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
 
-
-\tglobal_tax_modifier = 0.3
+\tdevelopment_cost = -0.1
+\tglobal_tax_modifier = 0.1
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -436,7 +461,7 @@ idea_variation_act_566 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -444,7 +469,7 @@ idea_variation_act_566 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 8
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -455,9 +480,9 @@ idea_variation_act_567 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = administrative_ideas
@@ -478,7 +503,7 @@ idea_variation_act_568 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -488,7 +513,7 @@ idea_variation_act_568 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -506,13 +531,17 @@ idea_variation_act_568 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -522,7 +551,7 @@ idea_variation_act_568 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -540,7 +569,11 @@ idea_variation_act_568 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
 
 \tglobal_missionary_strength = 0.02
@@ -559,7 +592,7 @@ idea_variation_act_568 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -567,7 +600,7 @@ idea_variation_act_568 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -578,9 +611,9 @@ idea_variation_act_569 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = republik0
@@ -602,7 +635,7 @@ idea_variation_act_569 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -610,7 +643,7 @@ idea_variation_act_569 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 8
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -621,9 +654,9 @@ idea_variation_act_570 = {
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = administrative_ideas
@@ -633,46 +666,46 @@ idea_variation_act_570 = {
 
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_571 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = economic_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = economic_ideas
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tglobal_tariffs = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
 }
 
 idea_variation_act_572 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = economic_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = economic_ideas
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 10
 \t\tmodifier = {
@@ -685,21 +718,21 @@ idea_variation_act_572 = {
 
 idea_variation_act_573 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tglobal_colonial_growth = 10
 \tcolonist_placement_chance = 0.1
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -720,9 +753,9 @@ idea_variation_act_574 = {
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
 \t\tfull_idea_group = dynasty0
@@ -744,20 +777,19 @@ idea_variation_act_575 = {
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = expansion_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
@@ -766,11 +798,11 @@ idea_variation_act_575 = {
 \t\t}
 \t}
 
-\tae_impact = -0.2
-
+\tae_impact = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
-\t}
+\t}\t
 }
 
 
@@ -780,7 +812,7 @@ idea_variation_act_576 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -790,7 +822,7 @@ idea_variation_act_576 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -808,13 +840,17 @@ idea_variation_act_576 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -824,7 +860,7 @@ idea_variation_act_576 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -842,12 +878,16 @@ idea_variation_act_576 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \treligious_unity = 0.2
 \tglobal_missionary_strength = 0.01
-
+ 
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -862,7 +902,7 @@ idea_variation_act_576 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -870,7 +910,7 @@ idea_variation_act_576 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -880,17 +920,17 @@ idea_variation_act_577 = {
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = expansion_ideas
 \t}
-
-
+\t
+\t
 \tglobal_spy_defence = 0.35
-
+ 
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -905,7 +945,7 @@ idea_variation_act_577 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 40
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 60
@@ -913,7 +953,7 @@ idea_variation_act_577 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 80
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -922,17 +962,17 @@ idea_variation_act_577 = {
 
 idea_variation_act_578 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = trade_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -946,11 +986,11 @@ idea_variation_act_578 = {
 
 \t\t\t}
 \t\t}
-\t}
-
+\t}\t
+\t
 \tidea_cost = -0.075
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -958,56 +998,55 @@ idea_variation_act_578 = {
 
 idea_variation_act_579 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = economic_ideas
-\t}
-
+\t}\t
+\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t\t
 \t}
 }
 
 idea_variation_act_580 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = innovativeness_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
 \t\t\thas_active_policy = idea_variation_act_256
 \t\t\t}
 \t\t}
-\t}
-
-\tae_impact = -0.2
-
+\t}\t
+\t
+\tae_impact = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -1015,46 +1054,46 @@ idea_variation_act_580 = {
 
 idea_variation_act_581 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = administrative_ideas
-\t}
-
+\t}\t
+\t
 \tdiplomatic_annexation_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
-
+\t
 }
 
 idea_variation_act_582 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = expansion_ideas
-\t}
-
+\t}\t
+\t
 \tglobal_tariffs = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
 }
 
@@ -1062,24 +1101,24 @@ idea_variation_act_582 = {
 
 idea_variation_act_583 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = offensive_ideas
-\t}
-
+\t}\t
+\t
 \tglobal_unrest = -1
 \tyears_of_nationalism = -5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 2
@@ -1087,7 +1126,7 @@ idea_variation_act_583 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -1101,21 +1140,21 @@ idea_variation_act_583 = {
 
 idea_variation_act_584 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = quality_ideas
-\t}
-
+\t}\t
+\t
 \tprestige = 1
 \tprestige_decay = -0.01
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -1123,27 +1162,27 @@ idea_variation_act_584 = {
 
 idea_variation_act_585 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = economic_ideas
-\t}
-
+\t}\t
+\t
 \tglobal_trade_goods_size_modifier = 0.1
 \tproduction_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.6
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -1159,13 +1198,13 @@ idea_variation_act_585 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
 idea_variation_act_586 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
 \t\tOR = {
@@ -1173,7 +1212,7 @@ idea_variation_act_586 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
@@ -1182,17 +1221,17 @@ idea_variation_act_586 = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-\t}
-
+\t}\t
+\t
 \ttrade_efficiency = 0.2
 \tglobal_ship_repair = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1208,13 +1247,13 @@ idea_variation_act_586 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
 idea_variation_act_587 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = expansion_ideas
 \t\tOR = {
@@ -1222,7 +1261,7 @@ idea_variation_act_587 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = expansion_ideas
@@ -1231,14 +1270,14 @@ idea_variation_act_587 = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-\t}
-
+\t}\t
+\t
 \tglobal_tariffs = 0.2
 \tglobal_ship_repair = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -1255,13 +1294,13 @@ idea_variation_act_588 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tfull_idea_group = economic_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -1272,6 +1311,8 @@ idea_variation_act_588 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
@@ -1285,7 +1326,7 @@ idea_variation_act_588 = {
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1302,11 +1343,11 @@ idea_variation_act_588 = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
 \t\t}
-
+\t\t
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -1333,17 +1374,17 @@ idea_variation_act_589 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_sailors_modifier = 0.25
 \tnaval_maintenance_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.6
 \t\tmodifier = {
@@ -1357,7 +1398,7 @@ idea_variation_act_589 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tnavy_size = 100
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tnavy_size = 150
@@ -1365,8 +1406,8 @@ idea_variation_act_589 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tnavy_size = 200
-\t\t}
-\t}
+\t\t}\t\t
+\t}\t
 }
 
 
@@ -1378,22 +1419,22 @@ idea_variation_act_590 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \ttrade_efficiency = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1420,13 +1461,13 @@ idea_variation_act_591 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = economic_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -1437,11 +1478,13 @@ idea_variation_act_591 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_cost = -0.1
 
 \tai_will_do = {
@@ -1449,7 +1492,7 @@ idea_variation_act_591 = {
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { tax_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.2
@@ -1466,7 +1509,7 @@ idea_variation_act_591 = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.5
 \t\t}
-
+\t\t
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { average_autonomy_above_min = 1 }
@@ -1478,7 +1521,7 @@ idea_variation_act_591 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 40
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 60
@@ -1486,7 +1529,7 @@ idea_variation_act_591 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_autonomy_above_min = 80
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -1502,21 +1545,21 @@ idea_variation_act_592 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = defensive_ideas
 \t}
-\tglobal_ship_recruit_speed = -0.33
-
+\tglobal_ship_recruit_speed = -0.33\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { navy_size = 20 }
-\t\t}
+\t\t}\t\t\t\t
 \t}
 }
 
@@ -1528,21 +1571,21 @@ idea_variation_act_593 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \ttrade_efficiency = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1.2
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1569,16 +1612,16 @@ idea_variation_act_594 = {
 \tpotential = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = expansion_ideas
 \t\tfull_idea_group = exploration_ideas
-\t}
+\t}\t\t
 
 \tglobal_colonial_growth = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -1601,9 +1644,9 @@ idea_variation_act_595 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = innovativeness_ideas
-
+\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = innovativeness_ideas
@@ -1623,11 +1666,11 @@ idea_variation_act_595 = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { num_of_colonies = 1 }
 \t\t}
-
+\t\t
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1655,7 +1698,7 @@ idea_variation_act_596 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -1665,7 +1708,7 @@ idea_variation_act_596 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -1683,13 +1726,17 @@ idea_variation_act_596 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -1699,7 +1746,7 @@ idea_variation_act_596 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -1717,7 +1764,11 @@ idea_variation_act_596 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
 
 
@@ -1727,7 +1778,7 @@ idea_variation_act_596 = {
 
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\treligious_unity = 1
@@ -1739,7 +1790,7 @@ idea_variation_act_596 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.25
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.25
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -1747,7 +1798,7 @@ idea_variation_act_596 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.25
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -1761,9 +1812,9 @@ idea_variation_act_597 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = expansion_ideas
@@ -1778,7 +1829,7 @@ idea_variation_act_597 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { navy_size_percentage = 0.9 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tnavy_size_percentage = 1.1
@@ -1794,7 +1845,7 @@ idea_variation_act_597 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tnavy_size_percentage = 2.5
-\t\t}
+\t\t}\t\t\t\t
 \t}
 }
 
@@ -1805,9 +1856,9 @@ idea_variation_act_598 = {
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = dynasty0
@@ -1830,20 +1881,20 @@ idea_variation_act_599 = {
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = trade_ideas
 \t}
-
-\ttrade_efficiency = 0.3
+\t\t
+\ttrade_efficiency = 0.3\t
 
 
 \t\tai_will_do = {
 \t\tfactor = 1.5
-
+\t\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1868,9 +1919,9 @@ idea_variation_act_600 = {
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = maritime_ideas
@@ -1898,7 +1949,7 @@ idea_variation_act_601 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = trade_ideas
@@ -1912,7 +1963,7 @@ idea_variation_act_601 = {
 \tglobal_foreign_trade_power = 0.3
 
 \tai_will_do = {
-\t\tfactor = 0.8
+\t\tfactor = 0.8\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -1941,7 +1992,7 @@ idea_variation_act_602 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
@@ -1969,7 +2020,7 @@ idea_variation_act_603 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
@@ -1987,7 +2038,7 @@ idea_variation_act_603 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { navy_size = 20 }
-\t\t}
+\t\t}\t\t
 \t}
 }
 
@@ -1998,9 +2049,9 @@ idea_variation_act_604 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = defensive_ideas
@@ -2016,18 +2067,18 @@ idea_variation_act_604 = {
 
 
 idea_variation_act_605 = {
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tgalley_power = 0.15
 
 \tai_will_do = {
@@ -2035,8 +2086,8 @@ idea_variation_act_605 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { num_of_galley = 10 }
-\t\t}
-\t}
+\t\t}\t\t
+\t}\t
 
 }
 
@@ -2045,9 +2096,9 @@ idea_variation_act_606 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tfull_idea_group = quality_ideas
@@ -2059,7 +2110,7 @@ idea_variation_act_606 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -2086,15 +2137,15 @@ idea_variation_act_607 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tfull_idea_group = quantity_ideas
 \t}
 \tglobal_trade_goods_size_modifier = 0.15
-
+ 
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -2106,24 +2157,24 @@ idea_variation_act_608 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \ttrade_efficiency = 0.15
 \ttrade_steering = 0.15
-
+ 
 
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { navy_size = 20 }
-\t\t}
+\t\t}\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -2148,19 +2199,19 @@ idea_variation_act_609 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
-\tglobal_trade_power = 0.15
+\t
+\tglobal_trade_power = 0.15\t\t
 \tdiplomatic_reputation = 1
 
 \tai_will_do = {
-\t\tfactor = 0.8
+\t\tfactor = 0.8\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -2185,14 +2236,14 @@ idea_variation_act_610 = {
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = trade_ideas
 \t}
-
+\t
 \tglobal_foreign_trade_power = 0.3
 
 \tai_will_do = {
@@ -2200,7 +2251,7 @@ idea_variation_act_610 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -2225,13 +2276,13 @@ idea_variation_act_611 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = republik0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -2247,10 +2298,10 @@ idea_variation_act_611 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tdiplomatic_reputation = 2
-\timprove_relation_modifier = 0.1
-
+\timprove_relation_modifier = 0.1\t\t
+\t
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -2263,16 +2314,16 @@ idea_variation_act_612 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tdiplomatic_reputation = 2
-
+\t
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -2287,14 +2338,14 @@ idea_variation_act_613 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \trange = 0.25
 \tglobal_colonial_growth = 10
 
@@ -2316,14 +2367,14 @@ idea_variation_act_614 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tlight_ship_cost = -0.15
 \tlight_ship_power = 0.15
 
@@ -2343,7 +2394,7 @@ idea_variation_act_615 = {
 \tpotential = {
 \t\thas_idea_group = trade_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -2353,7 +2404,7 @@ idea_variation_act_615 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -2371,13 +2422,17 @@ idea_variation_act_615 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = trade_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -2387,7 +2442,7 @@ idea_variation_act_615 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -2405,12 +2460,16 @@ idea_variation_act_615 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.1
 \tglobal_missionary_strength = 0.02
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -2424,7 +2483,7 @@ idea_variation_act_615 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -2432,9 +2491,9 @@ idea_variation_act_615 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
-
+\t
 
 }
 
@@ -2444,7 +2503,7 @@ idea_variation_act_616 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -2454,7 +2513,7 @@ idea_variation_act_616 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -2472,13 +2531,17 @@ idea_variation_act_616 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -2488,7 +2551,7 @@ idea_variation_act_616 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -2506,12 +2569,16 @@ idea_variation_act_616 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tnaval_morale = 0.1
 \trecover_navy_morale_speed = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -2523,17 +2590,17 @@ idea_variation_act_616 = {
 
 idea_variation_act_617 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = dynasty0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -2548,11 +2615,11 @@ idea_variation_act_617 = {
 
 \t\t\t}
 \t\t}
-\t}
-
+\t}\t
+\t
 \tnum_accepted_cultures = 1
 \timprove_relation_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -2560,21 +2627,21 @@ idea_variation_act_617 = {
 
 idea_variation_act_618 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = exploration_ideas
-\t}
-
+\t}\t
+\t
 \tglobal_colonial_growth = 20
 \ttolerance_heathen = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -2590,21 +2657,21 @@ idea_variation_act_618 = {
 
 idea_variation_act_619 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = spy_ideas
-\t}
-
-
+\t}\t
+\t
+\t
 \tglobal_unrest = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -2618,7 +2685,7 @@ idea_variation_act_619 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -2632,17 +2699,17 @@ idea_variation_act_619 = {
 
 idea_variation_act_620 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = influence_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -2657,11 +2724,11 @@ idea_variation_act_620 = {
 
 \t\t\t}
 \t\t}
-\t}
-
-\timprove_relation_modifier = 0.1
+\t}\t
+\t
+\timprove_relation_modifier = 0.1\t\t
 \tdiplomatic_reputation = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -2669,11 +2736,11 @@ idea_variation_act_620 = {
 
 idea_variation_act_621 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -2683,7 +2750,7 @@ idea_variation_act_621 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -2701,13 +2768,17 @@ idea_variation_act_621 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -2717,7 +2788,7 @@ idea_variation_act_621 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -2735,11 +2806,15 @@ idea_variation_act_621 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
-\t}
-
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
+\t}\t
+\t
 \tculture_conversion_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -2748,20 +2823,20 @@ idea_variation_act_621 = {
 
 idea_variation_act_622 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = maritime_ideas
-\t}
-
+\t}\t
+\t
 \tnaval_attrition = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 0
 \t}
@@ -2769,34 +2844,33 @@ idea_variation_act_622 = {
 
 idea_variation_act_623 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = diktatur0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
 \t\t\thas_active_policy = idea_variation_act_256
 \t\t\t}
 \t\t}
-\t}
-
-\tae_impact = -0.2
-
+\t}\t
+\t\t
+\tae_impact = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -2804,21 +2878,21 @@ idea_variation_act_623 = {
 
 idea_variation_act_624 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = republik0
-\t}
-
+\t}\t
+\t
 \trange = 0.25
 \ttrade_range_modifier = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -2834,27 +2908,27 @@ idea_variation_act_624 = {
 
 idea_variation_act_625 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = staatsverwaltung0
-\t}
-
+\t}\t
+\t
 \tglobal_foreign_trade_power = 0.2
 \ttrade_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.9
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -2876,49 +2950,49 @@ idea_variation_act_625 = {
 
 idea_variation_act_626 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = quality_ideas
-\t}
-
-
+\t}\t
+\t
+\t
 \tglobal_institution_spread = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t\t
 \t}
 }
 
 idea_variation_act_627 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = festung0
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = festung0
-\t}
-
+\t}\t
+\t
 \tcaravan_power = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.7
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.2 }
@@ -2928,28 +3002,28 @@ idea_variation_act_627 = {
 
 idea_variation_act_628 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = influence_ideas
-\t}
-
+\t}\t
+\t
 \tdiplomatic_annexation_cost = -0.1
 \tglobal_unrest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.9
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tAND = {
 \t\t\t\tNOT = { average_effective_unrest = 1 }
-
+\t\t\t\t
 \t\t\t}
 \t\t}
 \t\tmodifier = {
@@ -2959,7 +3033,7 @@ idea_variation_act_628 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 4
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\taverage_effective_unrest = 6
@@ -2984,16 +3058,16 @@ idea_variation_act_629 = {
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -3001,7 +3075,7 @@ idea_variation_act_629 = {
 \t\t\tis_at_war = yes
 \t\t}
 \t}
-
+\t
 }
 
 idea_variation_act_630 = {
@@ -3011,15 +3085,15 @@ idea_variation_act_630 = {
 \tpotential = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = expansion_ideas
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tleader_land_fire = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -3032,19 +3106,19 @@ idea_variation_act_630 = {
 idea_variation_act_631 = {
 
 \tmonarch_power = ADM
-
-
+\t
+\t
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = administrative_ideas
-\t}
-
+\t}\t
+\t
 \tstate_maintenance_modifier = -0.75
 
 \tai_will_do = {
@@ -3054,13 +3128,13 @@ idea_variation_act_631 = {
 
 idea_variation_act_632 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = economic_ideas
@@ -3072,7 +3146,7 @@ idea_variation_act_632 = {
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { artillery_fraction = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tartillery_fraction = 0.28
@@ -3090,18 +3164,18 @@ idea_variation_act_632 = {
 
 idea_variation_act_633 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = trade_ideas
 \t}
-
+\t
 \ttrade_steering = 0.15
 \tmerchants = 1
 
@@ -3110,7 +3184,7 @@ idea_variation_act_633 = {
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -3132,18 +3206,18 @@ idea_variation_act_633 = {
 
 idea_variation_act_634 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = trade_ideas
 \t}
-
+\t
 \tinfantry_power = 0.15
 
 \tai_will_do = {
@@ -3151,7 +3225,7 @@ idea_variation_act_634 = {
 \t\tmodifier = {
 \t\t\tfactor = 0.6
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -3174,18 +3248,18 @@ idea_variation_act_634 = {
 
 idea_variation_act_635 = {
 \tmonarch_power = DIP\t\t# Marine
-
+\t
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \tnaval_morale = 0.15
 
 \tai_will_do = {
@@ -3198,31 +3272,31 @@ idea_variation_act_635 = {
 }
 
 idea_variation_act_636 = {
-\tmonarch_power = ADM
-
+\tmonarch_power = ADM\t\t\t
+\t
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = exploration_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
-\t\t\tamount = 2
+\t\t\tamount = 3
 \t\t\thas_active_policy = idea_variation_act_636
 \t\t\thas_active_policy = idea_variation_act_660
 \t\t\thas_active_policy = idea_variation_act_12
 \t\t\thas_active_policy = idea_variation_act_31
 \t\t\thas_active_policy = idea_variation_act_324
-
+\t
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.1
 \tland_attrition = -0.1
 
@@ -3238,19 +3312,19 @@ idea_variation_act_636 = {
 
 idea_variation_act_637 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = offensive_ideas
 \t}
-
-\tsiege_ability = 0.1
+\t
+\tsiege_ability = 0.1\t
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -3263,18 +3337,18 @@ idea_variation_act_637 = {
 
 idea_variation_act_638 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tdefensiveness = 0.1
 
 
@@ -3285,23 +3359,23 @@ idea_variation_act_638 = {
 
 idea_variation_act_639 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tproduction_efficiency = 0.15
 \ttrade_efficiency = 0.15
 
 \tai_will_do = {
-\t\tfactor = 1.2
+\t\tfactor = 1.2\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tinfantry_fraction = 0.28
@@ -3319,18 +3393,18 @@ idea_variation_act_639 = {
 
 idea_variation_act_640 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tfort_maintenance_modifier = -0.20
 \tgarrison_size = 0.3
 
@@ -3341,19 +3415,19 @@ idea_variation_act_640 = {
 
 idea_variation_act_641 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = spy_ideas
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = spy_ideas
 \t\tfull_idea_group = offensive_ideas
 \t}
-
-\tcav_to_inf_ratio = 0.15
+\t
+\tcav_to_inf_ratio = 0.15\t
 
 \tai_will_do = {
 \t\tfactor = 1
@@ -3362,11 +3436,11 @@ idea_variation_act_641 = {
 
 idea_variation_act_642 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -3376,7 +3450,7 @@ idea_variation_act_642 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -3394,13 +3468,17 @@ idea_variation_act_642 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -3410,7 +3488,7 @@ idea_variation_act_642 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -3428,9 +3506,13 @@ idea_variation_act_642 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \treligious_unity = 0.2
 \tglobal_heretic_missionary_strength = 0.03
 
@@ -3447,7 +3529,7 @@ idea_variation_act_642 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -3455,17 +3537,17 @@ idea_variation_act_642 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
 idea_variation_act_643 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -3475,7 +3557,7 @@ idea_variation_act_643 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -3493,13 +3575,17 @@ idea_variation_act_643 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -3509,7 +3595,7 @@ idea_variation_act_643 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -3527,9 +3613,13 @@ idea_variation_act_643 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tland_morale = 0.05
 \tsiege_ability = 0.05
 
@@ -3544,22 +3634,22 @@ idea_variation_act_643 = {
 
 idea_variation_act_644 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = exploration_ideas
 \t}
+\t
+\tprivateer_efficiency = 1.0\t
+\t
 
-\tprivateer_efficiency = 1.0
-
-
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.6
 \t\tmodifier = {
@@ -3575,7 +3665,7 @@ idea_variation_act_645 = {
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -3585,7 +3675,7 @@ idea_variation_act_645 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -3603,13 +3693,17 @@ idea_variation_act_645 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -3619,7 +3713,7 @@ idea_variation_act_645 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -3637,11 +3731,15 @@ idea_variation_act_645 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
 
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1.2
 \t\tmodifier = {
@@ -3652,28 +3750,28 @@ idea_variation_act_645 = {
 }
 
 idea_variation_act_646 = {
-\tmonarch_power = DIP
+\tmonarch_power = DIP\t\t\t
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tdiplomatic_reputation = 1
 \tland_forcelimit_modifier = 0.15
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { army_size_percentage = 0.9 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tarmy_size_percentage = 1.1
@@ -3698,25 +3796,25 @@ idea_variation_act_647 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tfire_damage_received = -0.075
 \treinforce_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { num_of_cities = 10 }
-\t\t}
+\t\t}\t\t
 \t}
-
+\t
 }
 
 idea_variation_act_648 = {
@@ -3724,9 +3822,9 @@ idea_variation_act_648 = {
 \tpotential = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = expansion_ideas
 \t\tfull_idea_group = defensive_ideas
@@ -3744,14 +3842,14 @@ idea_variation_act_649 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = offensive_ideas
-
+\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tdiplomatic_reputation = 2
 
 \tai_will_do = {
@@ -3761,13 +3859,13 @@ idea_variation_act_649 = {
 
 
 idea_variation_act_650 = {
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tfull_idea_group = exploration_ideas
@@ -3784,8 +3882,8 @@ idea_variation_act_650 = {
 \t\t}
 \t}
 }
-
-
+\t
+\t\t
 idea_variation_act_651 = {
 
 \tmonarch_power = ADM
@@ -3797,7 +3895,7 @@ idea_variation_act_651 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
@@ -3809,15 +3907,15 @@ idea_variation_act_651 = {
 \t}
 
 \tlegitimacy = 2
-\tdevotion = 1
+\tdevotion = 1\t\t\t
 \thorde_unity = 1
-
+\t\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tlegitimacy = 95
-\t\t}
+\t\t}\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { legitimacy = 80 }
@@ -3825,7 +3923,7 @@ idea_variation_act_651 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { legitimacy = 60 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { legitimacy = 40 }
@@ -3833,9 +3931,9 @@ idea_variation_act_651 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { legitimacy = 20 }
-\t\t}
-\t}
-
+\t\t}\t\t\t
+\t}\t
+\t
 }
 
 idea_variation_act_652 = {
@@ -3846,15 +3944,15 @@ idea_variation_act_652 = {
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tfull_idea_group = expansion_ideas
 \t}
 
-\tland_forcelimit_modifier = 0.15
+\tland_forcelimit_modifier = 0.15\t\t
 \tglobal_colonial_growth = 10
 
 \tai_will_do = {
@@ -3872,7 +3970,7 @@ idea_variation_act_652 = {
 
 idea_variation_act_653 = {
 \tmonarch_power = DIP
-
+\t
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\tOR = {
@@ -3880,7 +3978,7 @@ idea_variation_act_653 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
@@ -3889,11 +3987,11 @@ idea_variation_act_653 = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-\t}
-
+\t}\t
+\t
 \tnaval_forcelimit_modifier = 0.15
 \tembargo_efficiency = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.8
 \t\tmodifier = {
@@ -3905,21 +4003,21 @@ idea_variation_act_653 = {
 
 idea_variation_act_654 = {
 \tmonarch_power = DIP\t\t# Marine
-
+\t
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = quality_ideas
-
-
+\t\t
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = quality_ideas
-
-\t}
-
+\t\t
+\t}\t
+\t
 \tlight_ship_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -3931,7 +4029,7 @@ idea_variation_act_654 = {
 
 idea_variation_act_655 = {
 \tmonarch_power = DIP\t\t# Marine
-
+\t
 \tpotential = {
 \t\thas_idea_group = innovativeness_ideas
 \t\tOR = {
@@ -3939,7 +4037,7 @@ idea_variation_act_655 = {
 \t\thas_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
@@ -3948,10 +4046,10 @@ idea_variation_act_655 = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-\t}
-
+\t}\t
+\t
 \tleader_naval_fire = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -3967,7 +4065,7 @@ idea_variation_act_655 = {
 
 idea_variation_act_656 = {
 \tmonarch_power = DIP\t\t\t# Marine
-
+\t
 \tpotential = {
 
 \t\tOR = {
@@ -3975,9 +4073,9 @@ idea_variation_act_656 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -3987,7 +4085,7 @@ idea_variation_act_656 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -4005,8 +4103,12 @@ idea_variation_act_656 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tOR = {
@@ -4015,7 +4117,7 @@ idea_variation_act_656 = {
 \t\t\tfull_idea_group = gross0
 \t\t\t}
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -4025,7 +4127,7 @@ idea_variation_act_656 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -4043,11 +4145,15 @@ idea_variation_act_656 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tleader_naval_shock = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -4062,8 +4168,8 @@ idea_variation_act_656 = {
 }
 
 idea_variation_act_657 = {
-\tmonarch_power = DIP
-
+\tmonarch_power = DIP 
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\tOR = {
@@ -4071,7 +4177,7 @@ idea_variation_act_657 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = influence_ideas
@@ -4081,32 +4187,32 @@ idea_variation_act_657 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_unrest = -1
-\treduced_liberty_desire = 5
-
+\treduced_liberty_desire = 5\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t
 \t}
 }
 
 idea_variation_act_658 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = quantity_ideas
-\t}
-
+\t}\t
+\t
 \tleader_land_shock = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1.2
 \t\tmodifier = {
@@ -4118,27 +4224,27 @@ idea_variation_act_658 = {
 
 idea_variation_act_659 = {
 \tmonarch_power = DIP\t\t\t\t# Marine
-
+\t
 \tpotential = {
-\t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = humanist_ideas 
 \t\tOR = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t\tOR = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
-\t}
-
+\t}\t
+\t
 \tnaval_morale = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.8
 \t\tmodifier = {
@@ -4150,32 +4256,32 @@ idea_variation_act_659 = {
 
 idea_variation_act_660 = {
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
 \t\thas_idea_group = humanist_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = humanist_ideas
 \t\tfull_idea_group = defensive_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
-\t\t\tamount = 2
+\t\t\tamount = 3
 \t\t\thas_active_policy = idea_variation_act_636
 \t\t\thas_active_policy = idea_variation_act_660
 \t\t\thas_active_policy = idea_variation_act_12
 \t\t\thas_active_policy = idea_variation_act_31
 \t\t\thas_active_policy = idea_variation_act_324
-
+\t
 \t\t\t}
 \t\t}
-\t}
-
+\t}\t
+\t
 \tland_attrition = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 0.9
 \t\tmodifier = {
@@ -4187,63 +4293,63 @@ idea_variation_act_660 = {
 
 idea_variation_act_661 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = defensive_ideas
-\t}
-
+\t}\t
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
 }
 
 idea_variation_act_662 = {
-\tmonarch_power = DIP
-
+\tmonarch_power = DIP\t\t
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = offensive_ideas
-\t}
-
+\t}\t
+\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t
 \t}
 }
 
 idea_variation_act_663 = {
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = influence_ideas
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
-
+\t
 \tallow = {
 \t\tfull_idea_group = influence_ideas
 \t\tfull_idea_group = quantity_ideas
-\t}
-
+\t}\t
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4266,15 +4372,15 @@ idea_variation_act_1 = {
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = flottenbasis0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tnaval_maintenance_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -4295,20 +4401,20 @@ idea_variation_act_2 = {
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = kolonialimperium0
-
-
+\t\t
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tglobal_colonial_growth = 15
 \tglobal_tariffs = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
 }
 
@@ -4322,7 +4428,7 @@ idea_variation_act_3 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
@@ -4331,9 +4437,9 @@ idea_variation_act_3 = {
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.33
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -4354,16 +4460,16 @@ idea_variation_act_4 = {
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tcolonists = 1
 \tcolonist_placement_chance = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -4384,15 +4490,15 @@ idea_variation_act_5 = {
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4404,16 +4510,16 @@ idea_variation_act_6 = {
 
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0  
 \t}
-
-\tmercenary_discipline = 0.05
-
+\t
+\tmercenary_discipline = 0.05\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4421,20 +4527,20 @@ idea_variation_act_6 = {
 
 idea_variation_act_7 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -4452,16 +4558,16 @@ idea_variation_act_8 = {
 \tpotential = {
 \t\thas_idea_group = staatsverwaltung0
 \t\thas_idea_group = nationalismus0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
 \t\tfull_idea_group = nationalismus0
 \t}
-
-
+\t
+\t
 \tadvisor_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4479,15 +4585,15 @@ idea_variation_act_10 = {
 \tpotential = {
 \t\thas_idea_group = justiz0
 \t\thas_idea_group = assimilation0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
-\t\tfull_idea_group = assimilation0
+\t\tfull_idea_group = assimilation0 
 \t}
-
+\t
 \tglobal_institution_spread = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4499,24 +4605,24 @@ idea_variation_act_11 = {
 
 \tpotential = {
 \t\thas_idea_group = justiz0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tglobal_tax_modifier = 0.1
 \tproduction_efficiency = 0.1
 \ttrade_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -4532,7 +4638,7 @@ idea_variation_act_11 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -4543,27 +4649,27 @@ idea_variation_act_12 = {
 \tpotential = {
 \t\thas_idea_group = justiz0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
 \t\tfull_idea_group = offensive_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
-\t\t\tamount = 2
+\t\t\tamount = 3
 \t\t\thas_active_policy = idea_variation_act_636
 \t\t\thas_active_policy = idea_variation_act_660
 \t\t\thas_active_policy = idea_variation_act_12
 \t\t\thas_active_policy = idea_variation_act_31
 \t\t\thas_active_policy = idea_variation_act_324
-
+\t
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tland_attrition = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4576,12 +4682,12 @@ idea_variation_act_13 = {
 \tpotential = {
 \t\thas_idea_group = justiz0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
 \t\tfull_idea_group = gesellschaft0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -4596,9 +4702,9 @@ idea_variation_act_13 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4611,21 +4717,21 @@ idea_variation_act_14 = {
 \tpotential = {
 \t\thas_idea_group = justiz0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -4641,28 +4747,28 @@ idea_variation_act_14 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
-idea_variation_act_15 = {
+
+idea_variation_act_664 = {
 
 \tmonarch_power = DIP
 
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = waffenqualitat0
-
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = waffenqualitat0
-
+\t\t
 \t}
-
+\t
 \tnaval_morale = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4674,31 +4780,17 @@ idea_variation_act_16 = {
 
 \tpotential = {
 \t\thas_idea_group = justiz0
-\t\thas_idea_group = influence_ideas
-
+\t\thas_idea_group = influence_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
-\t\tfull_idea_group = influence_ideas
-
-\t\tNOT = {
-\t\tcalc_true_if = {
-\t\t\tamount = 2
-\t\t\thas_active_policy = idea_variation_act_575
-\t\t\thas_active_policy = idea_variation_act_580
-\t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
-\t\t\thas_active_policy = idea_variation_act_79
-\t\t\thas_active_policy = idea_variation_act_90
-\t\t\thas_active_policy = idea_variation_act_220
-\t\t\thas_active_policy = idea_variation_act_256
-\t\t\t}
-\t\t}
+\t\tfull_idea_group = influence_ideas 
+\t\t
 \t}
-
-\tae_impact = -0.1
+\t
 \tdiplomatic_reputation = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4715,15 +4807,15 @@ idea_variation_act_17 = {
 \tpotential = {
 \t\thas_idea_group = entwicklung0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -4739,24 +4831,24 @@ idea_variation_act_18 = {
 
 \tpotential = {
 \t\thas_idea_group = entwicklung0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tmerchants = 1
 \tglobal_trade_power = 0.1
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -4772,7 +4864,7 @@ idea_variation_act_18 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -4782,17 +4874,17 @@ idea_variation_act_19 = {
 
 \tpotential = {
 \t\thas_idea_group = entwicklung0
-\t\thas_idea_group = maritime_ideas
-
+\t\thas_idea_group = maritime_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
-\t\tfull_idea_group = maritime_ideas
+\t\tfull_idea_group = maritime_ideas 
 \t}
-
+\t
 \tglobal_ship_recruit_speed = -0.25
 \tnaval_attrition = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -4813,16 +4905,16 @@ idea_variation_act_20 = {
 \tpotential = {
 \t\thas_idea_group = entwicklung0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
 \t\tfull_idea_group = generalstab0
 \t}
-
-\tyearly_army_professionalism = 0.01
+\t
+\tyearly_army_professionalism = 0.03
 \tdrill_gain_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4830,17 +4922,17 @@ idea_variation_act_20 = {
 
 idea_variation_act_21 = {
 
-\tmonarch_power = ADM
+\tmonarch_power = ADM\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = entwicklung0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
 \t\tfull_idea_group = quantity_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -4851,13 +4943,15 @@ idea_variation_act_21 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4869,25 +4963,25 @@ idea_variation_act_22 = {
 
 \tpotential = {
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4900,12 +4994,12 @@ idea_variation_act_23 = {
 \tpotential = {
 \t\thas_idea_group = justiz0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
 \t\tfull_idea_group = propaganda0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -4915,13 +5009,19 @@ idea_variation_act_23 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
-\t\t}
+\t\t}\t
 \t}
-
-\tdevelopment_cost = -0.1
+\t
+\tdevelopment_cost = -0.1 
 \tdiplomatic_reputation = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4934,15 +5034,15 @@ idea_variation_act_24 = {
 \tpotential = {
 \t\thas_idea_group = entwicklung0
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -4959,15 +5059,15 @@ idea_variation_act_25 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = offensive_ideas
-
+\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -4984,21 +5084,21 @@ idea_variation_act_26 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\tOR = {
-\t\thas_idea_group = stehendesheer0
+\t\thas_idea_group = stehendesheer0 
 \t\thas_idea_group = wehrpflicht0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tOR = {
-\t\tfull_idea_group = stehendesheer0
+\t\tfull_idea_group = stehendesheer0 
 \t\tfull_idea_group = wehrpflicht0
 \t\t}
 \t}
-
-\tmanpower_recovery_speed = 0.25
-
+\t
+\tmanpower_recovery_speed = 0.25 
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5011,22 +5111,22 @@ idea_variation_act_27 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -5042,7 +5142,7 @@ idea_variation_act_27 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.5
-\t\t}
+\t\t}\t\t
 \t}
 }
 
@@ -5053,15 +5153,15 @@ idea_variation_act_28 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tembracement_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5074,15 +5174,15 @@ idea_variation_act_29 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = assimilation0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = assimilation0
 \t}
-
+\t
 \tdiplomatic_annexation_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5095,17 +5195,17 @@ idea_variation_act_30 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tnative_assimilation = 0.25
 \tnative_uprising_chance = -0.25
 \tglobal_colonial_growth = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5126,28 +5226,28 @@ idea_variation_act_31 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = quality_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
-\t\t\tamount = 2
+\t\t\tamount = 3
 \t\t\thas_active_policy = idea_variation_act_636
 \t\t\thas_active_policy = idea_variation_act_660
 \t\t\thas_active_policy = idea_variation_act_12
 \t\t\thas_active_policy = idea_variation_act_31
 \t\t\thas_active_policy = idea_variation_act_324
-
+\t
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tland_attrition = -0.15
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5160,16 +5260,16 @@ idea_variation_act_32 = {
 \tpotential = {
 \t\thas_idea_group = gesundheit0
 \t\thas_idea_group = maritime_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
-
+\t
+\t
 \tnaval_morale = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5194,16 +5294,16 @@ idea_variation_act_33 = {
 \tpotential = {
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = nationalismus0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -5220,16 +5320,16 @@ idea_variation_act_34 = {
 \tpotential = {
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = assimilation0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = assimilation0
 \t}
-
+\t
 \tculture_conversion_cost = -0.1
 \tembracement_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5242,22 +5342,22 @@ idea_variation_act_35 = {
 \tpotential = {
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_unrest = -1
 \tglobal_trade_goods_size_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -5273,7 +5373,7 @@ idea_variation_act_35 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -5284,16 +5384,16 @@ idea_variation_act_36 = {
 \tpotential = {
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = gesellschaft0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tembracement_cost = -0.1
 \tglobal_institution_spread = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5307,16 +5407,16 @@ idea_variation_act_37 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 5.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5330,16 +5430,16 @@ idea_variation_act_37_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 10.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5353,16 +5453,16 @@ idea_variation_act_37_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 15.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5376,16 +5476,16 @@ idea_variation_act_37_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 20.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5404,7 +5504,7 @@ idea_variation_act_39 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
@@ -5413,12 +5513,12 @@ idea_variation_act_39 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.75
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -5429,16 +5529,16 @@ idea_variation_act_40 = {
 \tpotential = {
 \t\thas_idea_group = diktatur0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = diktatur0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tland_morale = 0.15
 \tdiscipline = -0.035
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -5459,22 +5559,22 @@ idea_variation_act_41 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_trade_power = 0.1
 \tmerchants = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -5490,7 +5590,7 @@ idea_variation_act_41 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -5501,15 +5601,15 @@ idea_variation_act_42 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \trange = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5534,7 +5634,7 @@ idea_variation_act_43 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
@@ -5544,12 +5644,12 @@ idea_variation_act_43 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_tariffs = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
 }
 
@@ -5560,16 +5660,16 @@ idea_variation_act_44 = {
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = galle0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tprivateer_efficiency = 0.25
 \tgalley_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5582,16 +5682,16 @@ idea_variation_act_45 = {
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\thas_idea_group = gesundheit0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tglobal_autonomy = -0.05
 \tglobal_unrest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5603,16 +5703,16 @@ idea_variation_act_46 = {
 
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tglobal_colonial_growth = 25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5633,15 +5733,15 @@ idea_variation_act_47 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tcolonists = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5666,15 +5766,15 @@ idea_variation_act_48 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5690,15 +5790,15 @@ idea_variation_act_49 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
-\tglobal_unrest = -2
-
+\t
+\tglobal_unrest = -3\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5716,17 +5816,17 @@ idea_variation_act_50 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
-
+\t\t}\t
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -5742,10 +5842,10 @@ idea_variation_act_50 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tdiplomatic_reputation = 1
-\timprove_relation_modifier = 0.1
-
+\timprove_relation_modifier = 0.1\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5759,16 +5859,16 @@ idea_variation_act_51 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 10.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5782,16 +5882,16 @@ idea_variation_act_51_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 20.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5805,16 +5905,16 @@ idea_variation_act_51_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 30.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5828,16 +5928,16 @@ idea_variation_act_51_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower = 40.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -5850,15 +5950,15 @@ idea_variation_act_52 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tinfantry_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 15
 \t}
@@ -5870,24 +5970,24 @@ idea_variation_act_53 = {
 
 \tpotential = {
 \t\thas_idea_group = assimilation0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tyears_of_nationalism = -5
 \tstability_cost_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
 }
 
 ########################################################
-###### Society / Gesellschaft
+###### Society / Gesellschaft 
 ########################################################
 
 
@@ -5898,7 +5998,7 @@ idea_variation_act_54 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -5908,7 +6008,7 @@ idea_variation_act_54 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -5926,13 +6026,17 @@ idea_variation_act_54 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -5942,7 +6046,7 @@ idea_variation_act_54 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -5960,11 +6064,15 @@ idea_variation_act_54 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tmissionaries = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -5978,7 +6086,7 @@ idea_variation_act_54 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -5986,7 +6094,7 @@ idea_variation_act_54 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -6002,48 +6110,48 @@ idea_variation_act_55 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
+\t\t}\t
 \t}
-
+\t
 \tdiplomatic_annexation_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_56 = {
 
 \tmonarch_power = MIL
-
+\t
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\tOR = {
-\t\thas_idea_group = stehendesheer0
+\t\thas_idea_group = stehendesheer0 
 \t\thas_idea_group = wehrpflicht0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tOR = {
-\t\tfull_idea_group = stehendesheer0
+\t\tfull_idea_group = stehendesheer0 
 \t\tfull_idea_group = wehrpflicht0
 \t\t}
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -6060,15 +6168,15 @@ idea_variation_act_57 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6081,17 +6189,17 @@ idea_variation_act_58 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = gross0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = gross0
 
 \t}
-
+\t
 \tleader_naval_fire = 1
 \tleader_naval_shock = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -6120,7 +6228,7 @@ idea_variation_act_59 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
@@ -6130,11 +6238,11 @@ idea_variation_act_59 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tlegitimacy = 2
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6147,15 +6255,15 @@ idea_variation_act_60 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -6172,15 +6280,15 @@ idea_variation_act_61 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6193,15 +6301,15 @@ idea_variation_act_62 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tproduction_efficiency = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6218,15 +6326,15 @@ idea_variation_act_63 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tglobal_ship_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -6248,14 +6356,14 @@ idea_variation_act_64 = {
 
 \t\tOR = {
 \t\thas_idea_group = galle0
-\t\thas_idea_group = gross0
+\t\thas_idea_group = gross0\t
 \t\t}
-
-
-
+\t\t
+\t\t
+\t\t
 \t\thas_idea_group = waffenqualitat0
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tOR = {
@@ -6264,15 +6372,15 @@ idea_variation_act_64 = {
 \t\t\t}
 
 \t\t\tfull_idea_group = waffenqualitat0
-
-
+\t\t\t
+\t\t
 \t}
-
+\t
 \theavy_ship_power = 0.075
 \tgalley_power = 0.075
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -6295,16 +6403,16 @@ idea_variation_act_65 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tland_maintenance_modifier = -0.1
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6317,22 +6425,22 @@ idea_variation_act_66 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \ttrade_range_modifier = 0.25
 \ttrade_steering = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -6348,7 +6456,7 @@ idea_variation_act_66 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -6359,16 +6467,16 @@ idea_variation_act_67 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = generalstab0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 
 \tleader_naval_manuever = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -6389,16 +6497,16 @@ idea_variation_act_68 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tleader_land_shock = 1
 \tleader_land_fire = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6411,15 +6519,15 @@ idea_variation_act_69 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = defensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
-\thostile_attrition = 2
-
+\t
+\thostile_attrition = 2\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6432,15 +6540,15 @@ idea_variation_act_70 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = festung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6453,15 +6561,15 @@ idea_variation_act_71 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -6473,27 +6581,27 @@ idea_variation_act_71 = {
 
 idea_variation_act_72 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tproduction_efficiency = 0.1
 \tglobal_trade_goods_size_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -6509,7 +6617,7 @@ idea_variation_act_72 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -6520,29 +6628,17 @@ idea_variation_act_73 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = republik0
 \t}
-
-\trepublican_tradition = 0.3
-
+\t
+\trepublican_tradition = 1.0
+\t
 \tai_will_do = {
 \t\tfactor = 1
-\t\tmodifier = {
-\t\t\tfactor = 10
-\t\t\tNOT = {
-\t\t\t\trepublican_tradition = 80
-\t\t\t}
-\t\t}
-\t\tmodifier = {
-\t\t\tfactor = 10
-\t\t\tNOT = {
-\t\t\t\trepublican_tradition = 60
-\t\t\t}
-\t\t}
 \t}
 }
 
@@ -6553,15 +6649,15 @@ idea_variation_act_74 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tglobal_unrest = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6576,28 +6672,28 @@ idea_variation_act_75 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-
-\t\thas_idea_group = soldnerheer0
-
+\t
+\t\thas_idea_group = soldnerheer0 
+\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
-
-\tfull_idea_group = soldnerheer0
+\t
+\tfull_idea_group = soldnerheer0 
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
-\tpossible_mercenaries = 1.0
-
+\t
+\tmercenary_manpower = 1.0
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6612,9 +6708,9 @@ idea_variation_act_76 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -6624,7 +6720,7 @@ idea_variation_act_76 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -6642,19 +6738,23 @@ idea_variation_act_76 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
+\t\t
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-
+\t\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -6664,7 +6764,7 @@ idea_variation_act_76 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -6682,11 +6782,15 @@ idea_variation_act_76 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \treligious_unity = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6699,28 +6803,28 @@ idea_variation_act_77 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-
+\t\t
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
-
+\t
 \t\tfull_idea_group = expansion_ideas
-
+\t\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6736,22 +6840,22 @@ idea_variation_act_78 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
-
+\t
 \t\tfull_idea_group = quantity_ideas
-
+\t\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6766,35 +6870,34 @@ idea_variation_act_79 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = aristo0
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
@@ -6802,9 +6905,9 @@ idea_variation_act_79 = {
 \t\t\t}
 \t\t}
 \t}
-
-\tae_impact = -0.2
-
+\t
+\tae_impact = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6815,28 +6918,28 @@ idea_variation_act_80 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-
+\t\t
 \t\thas_idea_group = humanist_ideas
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-
+\t
 \t\tfull_idea_group = humanist_ideas
-
+\t\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tdiplomatic_annexation_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6853,16 +6956,16 @@ idea_variation_act_81 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tsiege_ability = 0.1
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -6875,15 +6978,15 @@ idea_variation_act_82 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = propaganda0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -6900,18 +7003,18 @@ idea_variation_act_83 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = gesellschaft0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -6932,17 +7035,17 @@ idea_variation_act_84 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 10
 \t}
@@ -6950,28 +7053,28 @@ idea_variation_act_84 = {
 
 idea_variation_act_85 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tland_maintenance_modifier = -0.1
 \tnaval_maintenance_modifier = -0.1
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -6987,7 +7090,7 @@ idea_variation_act_85 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -7007,20 +7110,20 @@ idea_variation_act_86 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7037,15 +7140,15 @@ idea_variation_act_87 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7058,16 +7161,16 @@ idea_variation_act_88 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = nationalismus0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tland_morale = 0.07
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7089,7 +7192,7 @@ idea_variation_act_89 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
@@ -7100,9 +7203,9 @@ idea_variation_act_89 = {
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 5000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7120,7 +7223,7 @@ idea_variation_act_89_1 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
@@ -7131,9 +7234,9 @@ idea_variation_act_89_1 = {
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 10000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7151,7 +7254,7 @@ idea_variation_act_89_2 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
@@ -7162,9 +7265,9 @@ idea_variation_act_89_2 = {
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 15000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7182,7 +7285,7 @@ idea_variation_act_89_3 = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
@@ -7193,9 +7296,9 @@ idea_variation_act_89_3 = {
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 20000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7207,20 +7310,19 @@ idea_variation_act_90 = {
 
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
-\t\thas_idea_group = influence_ideas
-
+\t\thas_idea_group = influence_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
-\t\tfull_idea_group = influence_ideas
-
+\t\tfull_idea_group = influence_ideas 
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
@@ -7228,9 +7330,9 @@ idea_variation_act_90 = {
 \t\t\t}
 \t\t}
 \t}
-
-\tae_impact = -0.2
-
+\t
+\tae_impact = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7245,17 +7347,17 @@ idea_variation_act_91 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tmerc_maintenance_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7266,23 +7368,41 @@ idea_variation_act_92 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = economic_ideas
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
-
-\tglobal_tax_modifier = 0.3
-
+\t
+\tglobal_tax_modifier = 0.1
+\tdevelopment_cost = -0.1
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -7299,17 +7419,17 @@ idea_variation_act_93 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tfree_leader_pool = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7324,18 +7444,18 @@ idea_variation_act_94 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = soldnerheer0 
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = soldnerheer0 
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tyears_of_nationalism = -5
 \tprestige_from_land = 1.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7346,17 +7466,17 @@ idea_variation_act_95 = {
 \tmonarch_power = DIP\t\t\t# Besonderer Fall
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = soldnerheer0 
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = soldnerheer0 
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tmercenary_discipline = 0.035
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7367,17 +7487,29 @@ idea_variation_act_96 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = dynasty0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = dynasty0
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7397,7 +7529,7 @@ idea_variation_act_97 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
@@ -7405,12 +7537,12 @@ idea_variation_act_97 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t
 \t}
-
+\t
 \tinfantry_power = 0.1
 \tland_morale = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7427,16 +7559,16 @@ idea_variation_act_98 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tnaval_morale = 0.15
 \tnavy_tradition = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -7457,15 +7589,15 @@ idea_variation_act_99 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7482,17 +7614,17 @@ idea_variation_act_100 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 10
 \t}
@@ -7505,15 +7637,15 @@ idea_variation_act_101 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7526,15 +7658,15 @@ idea_variation_act_102 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = spy_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = spy_ideas
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7546,16 +7678,16 @@ idea_variation_act_103 = {
 
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7576,21 +7708,21 @@ idea_variation_act_104 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tartillery_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -7606,7 +7738,7 @@ idea_variation_act_104 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -7617,12 +7749,12 @@ idea_variation_act_105 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = administrative_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -7637,10 +7769,10 @@ idea_variation_act_105 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tinflation_reduction = 0.05
 \tinterest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7652,16 +7784,16 @@ idea_variation_act_106 = {
 
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tfire_damage = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7678,7 +7810,7 @@ idea_variation_act_107 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -7688,7 +7820,7 @@ idea_variation_act_107 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -7706,13 +7838,17 @@ idea_variation_act_107 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -7722,7 +7858,7 @@ idea_variation_act_107 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -7740,12 +7876,16 @@ idea_variation_act_107 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tdefensiveness = 0.075
 \tsiege_ability = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7758,15 +7898,30 @@ idea_variation_act_108 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = administrative_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7784,21 +7939,21 @@ idea_variation_act_109 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tarmy_tradition = 1
 \tshock_damage_received = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -7815,15 +7970,15 @@ idea_variation_act_110 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = gesellschaft0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \thostile_attrition = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7842,16 +7997,16 @@ idea_variation_act_111 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.5
 \tyears_of_nationalism = -5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -7865,7 +8020,7 @@ idea_variation_act_112 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -7875,7 +8030,7 @@ idea_variation_act_112 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -7893,13 +8048,17 @@ idea_variation_act_112 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -7909,7 +8068,7 @@ idea_variation_act_112 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -7927,11 +8086,15 @@ idea_variation_act_112 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tglobal_colonial_growth = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -7953,22 +8116,22 @@ idea_variation_act_113 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_tariffs = 0.15
 \ttrade_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -7984,7 +8147,7 @@ idea_variation_act_113 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -7995,15 +8158,30 @@ idea_variation_act_114 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = defensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = defensive_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8016,15 +8194,15 @@ idea_variation_act_115 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -8045,16 +8223,16 @@ idea_variation_act_116 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tcolonist_placement_chance = 0.15
 \tglobal_colonial_growth = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -8075,15 +8253,15 @@ idea_variation_act_117 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tcolonists = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -8104,16 +8282,16 @@ idea_variation_act_118 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = entwicklung0
 \t}
-
-\tcolonist_placement_chance = 0.10
+\t
+\tcolonist_placement_chance = 0.10\t\t\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8126,15 +8304,15 @@ idea_variation_act_119 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_colonial_growth = 15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -8155,17 +8333,17 @@ idea_variation_act_120 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = justiz0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_unrest = -1
 \tglobal_autonomy = -0.05
 \tyearly_corruption = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8178,15 +8356,15 @@ idea_variation_act_121 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tfree_leader_pool = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8200,15 +8378,15 @@ idea_variation_act_122 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8221,16 +8399,16 @@ idea_variation_act_123 = {
 
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
-\tpossible_mercenaries = 0.5
-
+\t
+\tmercenary_manpower = 0.25
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8243,15 +8421,15 @@ idea_variation_act_124 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \treinforce_speed = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8264,16 +8442,16 @@ idea_variation_act_125 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = festung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tfort_maintenance_modifier = -0.25
 \treduced_liberty_desire = 5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8286,17 +8464,17 @@ idea_variation_act_126 = {
 \tpotential = {
 \t\thas_idea_group = kolonialimperium0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kolonialimperium0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8313,18 +8491,18 @@ idea_variation_act_127 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tgoverning_capacity_modifier = 0.25
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -8334,17 +8512,17 @@ idea_variation_act_128 = {
 
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tnum_accepted_cultures = 1
 \tnaval_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8361,16 +8539,16 @@ idea_variation_act_129 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.75
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8383,7 +8561,7 @@ idea_variation_act_130 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -8393,7 +8571,7 @@ idea_variation_act_130 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -8411,13 +8589,17 @@ idea_variation_act_130 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -8427,7 +8609,7 @@ idea_variation_act_130 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -8445,12 +8627,16 @@ idea_variation_act_130 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \ttolerance_heathen = 1
 \ttolerance_heretic = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8468,23 +8654,23 @@ idea_variation_act_131 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
+\t\t}\t
 \t}
-
+\t
 \tlegitimacy = 2
-\trepublican_tradition = 0.3
+\trepublican_tradition = 1
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8498,15 +8684,30 @@ idea_variation_act_132 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = defensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = defensive_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8524,17 +8725,17 @@ idea_variation_act_133 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = quality_ideas
 \t}
-
-
+\t
+\t
 \tnaval_maintenance_modifier = -0.25
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -8555,16 +8756,16 @@ idea_variation_act_134 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tnaval_morale = 0.15
 \trange = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8582,16 +8783,16 @@ idea_variation_act_135 = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = quantity_ideas
 
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = quantity_ideas
 
 \t}
-
+\t
 \trange = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8604,16 +8805,16 @@ idea_variation_act_136 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_autonomy = -0.1
 \tglobal_unrest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8626,16 +8827,16 @@ idea_variation_act_137 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tnavy_tradition = 1
 \trange = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8648,12 +8849,12 @@ idea_variation_act_138 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -8664,14 +8865,16 @@ idea_variation_act_138 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 
 \tbuild_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8684,15 +8887,15 @@ idea_variation_act_139 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_sailors_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8705,15 +8908,15 @@ idea_variation_act_140 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.125
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8725,18 +8928,18 @@ idea_variation_act_141 = {
 
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
+\t
 \tmercenary_cost = -0.15
-\tpossible_mercenaries = 0.25
-
-
+\tmercenary_manpower = 0.15
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8750,15 +8953,15 @@ idea_variation_act_142 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8776,16 +8979,16 @@ idea_variation_act_143 = {
 \tpotential = {
 \t\thas_idea_group = flottenbasis0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = flottenbasis0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tland_morale = 0.05
 \tinfantry_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -8802,12 +9005,12 @@ idea_variation_act_144 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = administrative_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -8822,10 +9025,10 @@ idea_variation_act_144 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tinterest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8837,17 +9040,17 @@ idea_variation_act_145 = {
 
 \tpotential = {
 \t\thas_idea_group = propaganda0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tnum_accepted_cultures = 1
 \tculture_conversion_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8860,15 +9063,15 @@ idea_variation_act_146 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8881,7 +9084,7 @@ idea_variation_act_147 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -8891,7 +9094,7 @@ idea_variation_act_147 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -8909,13 +9112,17 @@ idea_variation_act_147 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -8925,7 +9132,7 @@ idea_variation_act_147 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -8943,14 +9150,18 @@ idea_variation_act_147 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \ttolerance_own = 3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -8961,15 +9172,15 @@ idea_variation_act_148 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = republik0
 \t}
-
-\trepublican_tradition = 0.3
-
+\t
+\trepublican_tradition = 1
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -8982,16 +9193,16 @@ idea_variation_act_149 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = defensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tdefensiveness = 0.075
 \twar_exhaustion = -0.02
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9005,17 +9216,17 @@ idea_variation_act_150 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tnaval_forcelimit = 10
 \tland_forcelimit = 5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9029,17 +9240,17 @@ idea_variation_act_150_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tnaval_forcelimit = 20
 \tland_forcelimit = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9053,17 +9264,17 @@ idea_variation_act_150_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tnaval_forcelimit = 30
 \tland_forcelimit = 15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9077,17 +9288,17 @@ idea_variation_act_150_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tnaval_forcelimit = 40
-\tland_forcelimit = 25
-
+\tland_forcelimit = 20
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9100,17 +9311,17 @@ idea_variation_act_151 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tland_morale = 0.05
 \tarmy_tradition_decay = -0.01
 \tnavy_tradition_decay = -0.01
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9124,12 +9335,12 @@ idea_variation_act_152 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = justiz0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -9145,9 +9356,9 @@ idea_variation_act_152 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \timprove_relation_modifier = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9161,12 +9372,12 @@ idea_variation_act_153 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -9176,12 +9387,18 @@ idea_variation_act_153 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tdevelopment_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9194,16 +9411,16 @@ idea_variation_act_154 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tglobal_institution_spread = 0.1
 \tstate_maintenance_modifier = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9216,16 +9433,16 @@ idea_variation_act_155 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tglobal_institution_spread = 0.2
 \tembracement_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9238,15 +9455,15 @@ idea_variation_act_156 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -9263,22 +9480,22 @@ idea_variation_act_157 = {
 \tpotential = {
 \t\thas_idea_group = economic_ideas
 \t\thas_idea_group = nationalismus0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = economic_ideas
 \t\tfull_idea_group = nationalismus0
-
+\t\t
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -9296,24 +9513,24 @@ idea_variation_act_15 = {
 
 \tpotential = {
 \t\thas_idea_group = economic_ideas
-\t\thas_idea_group = propaganda0
-
+\t\thas_idea_group = propaganda0\t
+\t\t
 \t}
 \tallow = {
-
+\t
 \t\tfull_idea_group = economic_ideas
-\t\tfull_idea_group = propaganda0
-
+\t\tfull_idea_group = propaganda0 
+\t\t
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -9331,16 +9548,16 @@ idea_variation_act_158 = {
 
 \tpotential = {
 \t\thas_idea_group = propaganda0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
-\tmercenary_discipline = 0.05
-
+\t
+\tmercenary_discipline = 0.05\t
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -9357,19 +9574,19 @@ idea_variation_act_159 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tmerchants = 1
 \tglobal_trade_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -9380,21 +9597,21 @@ idea_variation_act_160 = {
 \tpotential = {
 \t\thas_idea_group = propaganda0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = propaganda0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -9410,7 +9627,7 @@ idea_variation_act_160 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -9421,15 +9638,15 @@ idea_variation_act_161 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tyears_of_nationalism = -5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9442,16 +9659,16 @@ idea_variation_act_162 = {
 
 \tpotential = {
 \t\thas_idea_group = nationalismus0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tenemy_core_creation = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9465,15 +9682,15 @@ idea_variation_act_163 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tsame_culture_advisor_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9492,7 +9709,7 @@ idea_variation_act_164 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
@@ -9502,9 +9719,9 @@ idea_variation_act_164 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_autonomy = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9517,16 +9734,16 @@ idea_variation_act_165 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tland_morale = 0.07
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -9543,15 +9760,15 @@ idea_variation_act_166 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -9569,93 +9786,93 @@ idea_variation_act_167 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tglobal_manpower = 5
 \tglobal_sailors = 1500
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
 }
 
-# idea_variation_act_167_1 = {
+idea_variation_act_167_1 = {
 
-\t# monarch_power = DIP
+\tmonarch_power = DIP
 
-\t# potential = {
-\t\t# current_age = age_of_reformation
-\t\t# has_idea_group = nationalismus0
-\t\t# has_idea_group = quantity_ideas
+\tpotential = {
+\t\tcurrent_age = age_of_reformation
+\t\thas_idea_group = nationalismus0
+\t\thas_idea_group = quantity_ideas
+\t\t\t
+\t}
+\tallow = {\t
+\t\tcurrent_age = age_of_reformation
+\t\tfull_idea_group = nationalismus0
+\t\tfull_idea_group = quantity_ideas
+\t}
+\t
+\tglobal_manpower = 10
+\tglobal_sailors = 3000
+\t
+\tai_will_do = {
+\t\tfactor = 1
+\t}
+}
 
-\t# }
-\t# allow = {
-\t\t# current_age = age_of_reformation
-\t\t# full_idea_group = nationalismus0
-\t\t# full_idea_group = quantity_ideas
-\t# }
+idea_variation_act_167_2 = {
 
-\t# global_manpower = 10
-\t# global_sailors = 3000
+\tmonarch_power = DIP
 
-\t# ai_will_do = {
-\t\t# factor = 1
-\t# }
-# }
+\tpotential = {
+\t\tcurrent_age = age_of_absolutism
+\t\thas_idea_group = nationalismus0
+\t\thas_idea_group = quantity_ideas
+\t\t\t
+\t}
+\tallow = {\t
+\t\tcurrent_age = age_of_absolutism
+\t\tfull_idea_group = nationalismus0
+\t\tfull_idea_group = quantity_ideas
+\t}
+\t
+\tglobal_manpower = 15
+\tglobal_sailors = 4500
+\t
+\tai_will_do = {
+\t\tfactor = 1
+\t}
+}
 
-# idea_variation_act_167_2 = {
+idea_variation_act_167_3 = {
 
-\t# monarch_power = DIP
+\tmonarch_power = DIP
 
-\t# potential = {
-\t\t# current_age = age_of_absolutism
-\t\t# has_idea_group = nationalismus0
-\t\t# has_idea_group = quantity_ideas
-
-\t# }
-\t# allow = {
-\t\t# current_age = age_of_absolutism
-\t\t# full_idea_group = nationalismus0
-\t\t# full_idea_group = quantity_ideas
-\t# }
-
-\t# global_manpower = 15
-\t# global_sailors = 4500
-
-\t# ai_will_do = {
-\t\t# factor = 1
-\t# }
-# }
-
-# idea_variation_act_167_3 = {
-
-\t# monarch_power = DIP
-
-\t# potential = {
-\t\t# current_age = age_of_revolutions
-\t\t# has_idea_group = nationalismus0
-\t\t# has_idea_group = quantity_ideas
-
-\t# }
-\t# allow = {
-\t\t# current_age = age_of_revolutions
-\t\t# full_idea_group = nationalismus0
-\t\t# full_idea_group = quantity_ideas
-\t# }
-
-\t# global_manpower = 20
-\t# global_sailors = 6000
-
-\t# ai_will_do = {
-\t\t# factor = 1
-\t# }
-# }
+\tpotential = {
+\t\tcurrent_age = age_of_revolutions
+\t\thas_idea_group = nationalismus0
+\t\thas_idea_group = quantity_ideas
+\t\t\t
+\t}
+\tallow = {\t
+\t\tcurrent_age = age_of_revolutions
+\t\tfull_idea_group = nationalismus0
+\t\tfull_idea_group = quantity_ideas
+\t}
+\t
+\tglobal_manpower = 20
+\tglobal_sailors = 6000
+\t
+\tai_will_do = {
+\t\tfactor = 1
+\t}
+}
 
 
 
@@ -9666,21 +9883,21 @@ idea_variation_act_168 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = justiz0
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tgoverning_capacity_modifier = 0.25
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -9699,12 +9916,12 @@ idea_variation_act_169 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -9714,13 +9931,19 @@ idea_variation_act_169 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tdevelopment_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9733,22 +9956,22 @@ idea_variation_act_170 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = gesundheit0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -9766,16 +9989,16 @@ idea_variation_act_171 = {
 
 \tpotential = {
 \t\thas_idea_group = nationalismus0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
+\t
 \thostile_attrition = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9789,16 +10012,16 @@ idea_variation_act_172 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
-
+\t
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9812,7 +10035,7 @@ idea_variation_act_173 = {
 \tpotential = {
 \t\thas_idea_group = nationalismus0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -9822,7 +10045,7 @@ idea_variation_act_173 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -9840,13 +10063,17 @@ idea_variation_act_173 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = nationalismus0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -9856,7 +10083,7 @@ idea_variation_act_173 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -9874,12 +10101,16 @@ idea_variation_act_173 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tmissionaries = 1
 \treligious_unity = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -9893,7 +10124,7 @@ idea_variation_act_173 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -9901,7 +10132,7 @@ idea_variation_act_173 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -9912,16 +10143,16 @@ idea_variation_act_174 = {
 \tpotential = {
 \t\t\thas_idea_group = gesellschaft0
 \t\t\thas_idea_group = staatsverwaltung0
-
+\t\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
-\t\tfull_idea_group = staatsverwaltung0
-
+\t\tfull_idea_group = staatsverwaltung0 
+\t\t
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.75
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9934,16 +10165,16 @@ idea_variation_act_287 = {
 \tpotential = {
 \t\t\thas_idea_group = gesellschaft0
 \t\t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = administrative_ideas
-
+\t\t
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.75
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -9956,21 +10187,21 @@ idea_variation_act_175 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -9989,16 +10220,16 @@ idea_variation_act_176 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \treligious_unity = 0.2
 \ttolerance_own = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -10012,7 +10243,7 @@ idea_variation_act_176 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -10020,7 +10251,7 @@ idea_variation_act_176 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -10030,17 +10261,17 @@ idea_variation_act_177 = {
 
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \ttolerance_heathen = 1
 \ttolerance_heretic = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10053,15 +10284,15 @@ idea_variation_act_178 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_institution_spread = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10074,15 +10305,15 @@ idea_variation_act_179 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10095,15 +10326,15 @@ idea_variation_act_180 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tembracement_cost = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10116,16 +10347,16 @@ idea_variation_act_181 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = quality_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tartillery_power = 0.1
 \tcavalry_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10140,16 +10371,16 @@ idea_variation_act_182 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
-\tland_forcelimit = 15
-
+\t
+\tland_forcelimit = 5
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10163,16 +10394,16 @@ idea_variation_act_182_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
-\tland_forcelimit = 25
-
+\t
+\tland_forcelimit = 10
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10186,16 +10417,16 @@ idea_variation_act_182_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
-\tland_forcelimit = 35
-
+\t
+\tland_forcelimit = 15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10209,16 +10440,16 @@ idea_variation_act_182_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
-\tland_forcelimit = 40
-
+\t
+\tland_forcelimit = 20
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10232,18 +10463,18 @@ idea_variation_act_183 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tglobal_tariffs = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t\t\t
 \t}
 }
 
@@ -10254,20 +10485,20 @@ idea_variation_act_184 = {
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.05
 \tproduction_efficiency = 0.15
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -10277,16 +10508,16 @@ idea_variation_act_185 = {
 
 \tpotential = {
 \t\thas_idea_group = gesellschaft0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesellschaft0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -10298,21 +10529,21 @@ idea_variation_act_185 = {
 
 idea_variation_act_186 = {
 
-\tmonarch_power = DIP
+\tmonarch_power = DIP\t
 
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tnative_assimilation = 0.5
 \tdiplomatic_annexation_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10325,21 +10556,21 @@ idea_variation_act_187 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tadvisor_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -10358,15 +10589,15 @@ idea_variation_act_188 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10379,21 +10610,21 @@ idea_variation_act_189 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
-\tglobal_foreign_trade_power = 0.3
-
+\t
+\tglobal_foreign_trade_power = 0.3\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -10409,7 +10640,7 @@ idea_variation_act_189 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -10420,7 +10651,7 @@ idea_variation_act_190 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -10430,7 +10661,7 @@ idea_variation_act_190 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -10448,13 +10679,17 @@ idea_variation_act_190 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -10464,7 +10699,7 @@ idea_variation_act_190 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -10482,11 +10717,15 @@ idea_variation_act_190 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tglobal_missionary_strength = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -10500,7 +10739,7 @@ idea_variation_act_190 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -10508,7 +10747,7 @@ idea_variation_act_190 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -10519,15 +10758,15 @@ idea_variation_act_191 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -10545,16 +10784,16 @@ idea_variation_act_192 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tglobal_missionary_strength = 0.02
 \tculture_conversion_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -10568,7 +10807,7 @@ idea_variation_act_192 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -10576,7 +10815,7 @@ idea_variation_act_192 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -10588,15 +10827,15 @@ idea_variation_act_193 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = quantity_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tcav_to_inf_ratio = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10609,16 +10848,16 @@ idea_variation_act_194 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = entwicklung0
 \t}
-
-
+\t
+\t
 \tcolonist_placement_chance = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10631,16 +10870,16 @@ idea_variation_act_195 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tland_morale = 0.05
 \tfree_leader_pool = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10653,16 +10892,16 @@ idea_variation_act_196 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = stehendesheer0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tcavalry_power = 0.1
 \tcav_to_inf_ratio = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10674,17 +10913,17 @@ idea_variation_act_197 = {
 
 \tpotential = {
 \t\thas_idea_group = assimilation0
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
-
+\t
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10697,23 +10936,23 @@ idea_variation_act_198 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
-
+\t
+\t
 \tmil_tech_cost_modifier = -0.1
 \ttrade_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -10729,7 +10968,7 @@ idea_variation_act_198 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -10740,22 +10979,22 @@ idea_variation_act_199 = {
 \tpotential = {
 \t\thas_idea_group = assimilation0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = assimilation0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.05
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -10771,7 +11010,7 @@ idea_variation_act_199 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -10781,13 +11020,13 @@ idea_variation_act_200 = {
 
 \tpotential = {
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = administrative_ideas
@@ -10795,11 +11034,11 @@ idea_variation_act_200 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tgoverning_capacity_modifier = 0.25
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10815,8 +11054,8 @@ idea_variation_act_201 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = economic_ideas
@@ -10824,18 +11063,18 @@ idea_variation_act_201 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tglobal_tax_modifier = 0.2
 \tinflation_action_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -10857,8 +11096,8 @@ idea_variation_act_202 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = innovativeness_ideas
@@ -10866,11 +11105,11 @@ idea_variation_act_202 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tadvisor_pool = 5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10886,8 +11125,8 @@ idea_variation_act_203 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
@@ -10895,11 +11134,11 @@ idea_variation_act_203 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10915,8 +11154,8 @@ idea_variation_act_204 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
@@ -10924,12 +11163,12 @@ idea_variation_act_204 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -10949,8 +11188,8 @@ idea_variation_act_205 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
@@ -10958,12 +11197,12 @@ idea_variation_act_205 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -10979,17 +11218,17 @@ idea_variation_act_206 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t\tfull_idea_group = justiz0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -11004,9 +11243,9 @@ idea_variation_act_206 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11022,8 +11261,8 @@ idea_variation_act_207 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
@@ -11031,13 +11270,13 @@ idea_variation_act_207 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tglobal_institution_spread = 0.1
 \tinnovativeness_gain = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11053,8 +11292,8 @@ idea_variation_act_208 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
-
+\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = staatsverwaltung0
@@ -11062,12 +11301,12 @@ idea_variation_act_208 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.5
 \tyearly_corruption = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11084,8 +11323,8 @@ idea_variation_act_209 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
@@ -11093,12 +11332,12 @@ idea_variation_act_209 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tland_maintenance_modifier = -0.1
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11116,22 +11355,22 @@ idea_variation_act_210 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
-\tallow = {
+\tallow = {\t
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tglobal_manpower = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11149,22 +11388,22 @@ idea_variation_act_210_1 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
-\tallow = {
+\tallow = {\t
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tglobal_manpower = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11182,22 +11421,22 @@ idea_variation_act_210_2 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
-\tallow = {
+\tallow = {\t
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tglobal_manpower = 30
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11215,22 +11454,22 @@ idea_variation_act_210_3 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
-\tallow = {
+\tallow = {\t
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tglobal_manpower = 40
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11247,8 +11486,8 @@ idea_variation_act_211 = {
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
@@ -11256,13 +11495,13 @@ idea_variation_act_211 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t\t
+\t\t
 \t}
-
+\t
 \tinfantry_power = 0.1
 \tcavalry_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11273,30 +11512,30 @@ idea_variation_act_212 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-
+\t
 \thas_idea_group = festung0
-
+\t
 \t\tOR = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
 
-
+\t\t\t
 \t}
 \tallow = {
-
+\t
 \tfull_idea_group = festung0
-
+\t
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t
+\t\t
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11307,7 +11546,7 @@ idea_variation_act_213 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-
+\t
 \thas_idea_group = kriegsproduktion0
 \t\tOR = {
 \t\thas_idea_group = konigreich0
@@ -11315,24 +11554,24 @@ idea_variation_act_213 = {
 \t\t}
 
 
-
-
+\t
+\t\t
 \t}
 \tallow = {
-
+\t
 \tfull_idea_group = kriegsproduktion0
 \t\tOR = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
-
-
+\t
+\t\t
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11345,12 +11584,12 @@ idea_variation_act_214 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = justiz0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = justiz0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -11365,9 +11604,9 @@ idea_variation_act_214 = {
 \t\t\t}
 \t\t}
 \t}
-
-\tinterest = -2
-
+\t
+\tinterest = -2\t\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11380,12 +11619,12 @@ idea_variation_act_215 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -11401,10 +11640,10 @@ idea_variation_act_215 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \timprove_relation_modifier = 0.1
 \tdiplomatic_upkeep = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11417,15 +11656,15 @@ idea_variation_act_216 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11438,16 +11677,16 @@ idea_variation_act_217 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_unrest = -2
 \tglobal_spy_defence = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11460,16 +11699,16 @@ idea_variation_act_218 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tdiplomats = 1
 \tdiplomatic_annexation_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11482,12 +11721,12 @@ idea_variation_act_219 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = generalstab0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = generalstab0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -11502,9 +11741,9 @@ idea_variation_act_219 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11517,19 +11756,18 @@ idea_variation_act_220 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = stehendesheer0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
@@ -11537,10 +11775,10 @@ idea_variation_act_220 = {
 \t\t\t}
 \t\t}
 \t}
-
-\tae_impact = -0.2
-
-
+\t
+\tae_impact = -0.15
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11553,15 +11791,15 @@ idea_variation_act_221 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.125
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11574,15 +11812,15 @@ idea_variation_act_222 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tmil_tech_cost_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11595,15 +11833,15 @@ idea_variation_act_223 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tdiplomatic_reputation = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11616,22 +11854,22 @@ idea_variation_act_224 = {
 \tpotential = {
 \t\thas_idea_group = dynasty0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dynasty0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tland_morale = 0.05
 \tsiege_ability = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -11647,7 +11885,7 @@ idea_variation_act_224 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -11656,17 +11894,17 @@ idea_variation_act_225 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_spy_defence = 0.35
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11677,17 +11915,17 @@ idea_variation_act_226 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tspy_offence = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11698,14 +11936,14 @@ idea_variation_act_227 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = gesundheit0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -11720,9 +11958,9 @@ idea_variation_act_227 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11733,18 +11971,18 @@ idea_variation_act_228 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \ttechnology_cost = -0.075
 \tdiplomatic_reputation = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11755,14 +11993,14 @@ idea_variation_act_229 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = staatsverwaltung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -11777,10 +12015,10 @@ idea_variation_act_229 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tinterest = -1
 \tyearly_corruption = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11791,19 +12029,19 @@ idea_variation_act_230 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tland_morale = 0.05
 \tsiege_ability = 0.05
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -11817,17 +12055,17 @@ idea_variation_act_231 = {
 
 \tmonarch_power = ADM
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11838,18 +12076,18 @@ idea_variation_act_232 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = stehendesheer0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tstability_cost_modifier = -0.5
 \twar_exhaustion_cost = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11860,17 +12098,18 @@ idea_variation_act_233 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = spy_ideas 
+\t\thas_idea_group = soldnerheer0 
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = spy_ideas 
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
+\t
 \twar_exhaustion = -0.02
 \tmerc_maintenance_modifier = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11881,17 +12120,17 @@ idea_variation_act_234 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = festung0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tartillery_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -11902,23 +12141,23 @@ idea_variation_act_235 = {
 \tmonarch_power = MIL\t\t# Besonderer Fall
 
 \tpotential = {
-\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = spy_ideas 
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tproduction_efficiency = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -11934,7 +12173,7 @@ idea_variation_act_235 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.5
-\t\t}
+\t\t}\t\t
 \t}
 }
 
@@ -11945,15 +12184,15 @@ idea_variation_act_236 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = justiz0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tcolonists = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -11974,16 +12213,16 @@ idea_variation_act_237 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tcolonist_placement_chance = 0.15
 \tglobal_colonial_growth = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12004,12 +12243,12 @@ idea_variation_act_238 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -12019,14 +12258,20 @@ idea_variation_act_238 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tdevelopment_cost = -0.1
 \tdip_tech_cost_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12039,16 +12284,16 @@ idea_variation_act_239 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_colonial_growth = 15
 \tglobal_garrison_growth = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12069,17 +12314,17 @@ idea_variation_act_240 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = generalstab0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tleader_naval_manuever = 1
 \tleader_land_manuever = 1
 \tleader_siege = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12100,22 +12345,22 @@ idea_variation_act_241 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \ttrade_efficiency = 0.20
 \ttrade_range_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -12131,7 +12376,7 @@ idea_variation_act_241 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -12142,15 +12387,15 @@ idea_variation_act_242 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tglobal_sailors_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12162,16 +12407,16 @@ idea_variation_act_243 = {
 
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
-\tpossible_mercenaries = 0.5
-
+\t
+\tmercenary_manpower = 0.25
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12184,15 +12429,15 @@ idea_variation_act_244 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tinfantry_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12205,16 +12450,16 @@ idea_variation_act_245 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tdefensiveness = 0.075
 \tsiege_ability = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12227,17 +12472,17 @@ idea_variation_act_246 = {
 \tpotential = {
 \t\thas_idea_group = exploration_ideas
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = exploration_ideas
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 
 \tcavalry_power = 0.15
 \tcav_to_inf_ratio = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12248,18 +12493,18 @@ idea_variation_act_247 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tdiplomatic_annexation_cost = -0.10
 \tdiplomatic_reputation = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12267,17 +12512,17 @@ idea_variation_act_247 = {
 
 idea_variation_act_248 = {
 
-\tmonarch_power = DIP
+\tmonarch_power = DIP\t\t\t\t
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = staatsverwaltung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -12292,10 +12537,10 @@ idea_variation_act_248 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \their_chance = 2
-\tinterest = -1
-
+\tinterest = -1\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12306,18 +12551,18 @@ idea_variation_act_249 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tyears_of_nationalism = -10
 \tglobal_unrest = 3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12328,17 +12573,17 @@ idea_variation_act_250 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \ttechnology_cost = -0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12349,17 +12594,17 @@ idea_variation_act_251 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tyearly_absolutism = 1.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12370,17 +12615,17 @@ idea_variation_act_252 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = influence_ideas 
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = influence_ideas 
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
-\tmercenary_discipline = 0.05
-
+\t
+\tmercenary_discipline = 0.05\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12391,17 +12636,17 @@ idea_variation_act_253 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = wehrpflicht0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12413,19 +12658,19 @@ idea_variation_act_254 = {
 
 \tpotential = {
 \t\tcurrent_age = age_of_discovery
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tland_forcelimit = 5
 \tnaval_forcelimit = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12437,19 +12682,19 @@ idea_variation_act_254_1 = {
 
 \tpotential = {
 \t\tcurrent_age = age_of_reformation
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tland_forcelimit = 10
 \tnaval_forcelimit = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12461,19 +12706,19 @@ idea_variation_act_254_2 = {
 
 \tpotential = {
 \t\tcurrent_age = age_of_absolutism
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tland_forcelimit = 15
 \tnaval_forcelimit = 30
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12485,19 +12730,19 @@ idea_variation_act_254_3 = {
 
 \tpotential = {
 \t\tcurrent_age = age_of_revolutions
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
-\tland_forcelimit = 25
+\t
+\tland_forcelimit = 20
 \tnaval_forcelimit = 40
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12508,18 +12753,18 @@ idea_variation_act_255 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = festung0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tfort_maintenance_modifier = -0.25
 \tgarrison_size = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12530,21 +12775,20 @@ idea_variation_act_256 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = influence_ideas 
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t\tfull_idea_group = kriegsproduktion0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
 \t\t\thas_active_policy = idea_variation_act_575
 \t\t\thas_active_policy = idea_variation_act_580
 \t\t\thas_active_policy = idea_variation_act_623
-\t\t\thas_active_policy = idea_variation_act_16
 \t\t\thas_active_policy = idea_variation_act_79
 \t\t\thas_active_policy = idea_variation_act_90
 \t\t\thas_active_policy = idea_variation_act_220
@@ -12552,10 +12796,10 @@ idea_variation_act_256 = {
 \t\t\t}
 \t\t}
 \t}
-
-\tae_impact = -0.2
-
-
+\t
+\tae_impact = -0.15
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12568,16 +12812,16 @@ idea_variation_act_257 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = justiz0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_ship_cost = -0.15
 \tglobal_ship_recruit_speed = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12598,16 +12842,16 @@ idea_variation_act_258 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.15
 \tnaval_maintenance_modifier = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12628,15 +12872,16 @@ idea_variation_act_259 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tdevelopment_cost = -0.05
+\tbuild_cost = -0.05
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12649,16 +12894,16 @@ idea_variation_act_260 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = generalstab0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \theavy_ship_power = 0.1
 \tgalley_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12679,15 +12924,15 @@ idea_variation_act_261 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = wehrpflicht0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tsailors_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12700,15 +12945,15 @@ idea_variation_act_263 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tglobal_sailors_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -12720,16 +12965,16 @@ idea_variation_act_264 = {
 
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
-\t\thas_idea_group = soldnerheer0
-
+\t\thas_idea_group = soldnerheer0 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t}
-
+\t
 \tnaval_maintenance_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12750,18 +12995,18 @@ idea_variation_act_265 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = waffenqualitat0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \theavy_ship_power = 0.075
 \tgalley_power = 0.075
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12782,15 +13027,15 @@ idea_variation_act_266 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \theavy_ship_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12811,15 +13056,15 @@ idea_variation_act_267 = {
 \tpotential = {
 \t\thas_idea_group = maritime_ideas
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = maritime_ideas
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_ship_cost = -0.33
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -12838,23 +13083,23 @@ idea_variation_act_268 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = gesundheit0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tmerchants = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -12870,7 +13115,7 @@ idea_variation_act_268 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -12879,25 +13124,25 @@ idea_variation_act_269 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tcaravan_power = 0.15
 \ttrade_steering = 0.15
 \tembargo_efficiency = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -12913,7 +13158,7 @@ idea_variation_act_269 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -12922,23 +13167,23 @@ idea_variation_act_270 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \ttrade_steering = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -12954,7 +13199,7 @@ idea_variation_act_270 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -12963,23 +13208,23 @@ idea_variation_act_271 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tmerchants = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -12995,32 +13240,32 @@ idea_variation_act_271 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
 idea_variation_act_272 = {
 
-\tmonarch_power = DIP
+\tmonarch_power = DIP\t\t
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = wehrpflicht0
-
+\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = wehrpflicht0
 \t}
-
+\t
 \tglobal_prov_trade_power_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -13036,7 +13281,7 @@ idea_variation_act_272 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -13045,18 +13290,18 @@ idea_variation_act_273 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = stehendesheer0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tland_morale = 0.07
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13067,24 +13312,24 @@ idea_variation_act_274 = {
 \tmonarch_power = DIP
 
 \tpotential = {
-\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = trade_ideas 
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \ttrade_efficiency = 0.15
 \tlight_ship_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -13100,7 +13345,7 @@ idea_variation_act_274 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -13111,15 +13356,15 @@ idea_variation_act_275 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -13136,15 +13381,15 @@ idea_variation_act_276 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13157,16 +13402,16 @@ idea_variation_act_277 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = gesundheit0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tgarrison_size = 0.5
 \tglobal_garrison_growth = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13179,15 +13424,15 @@ idea_variation_act_278 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -13204,16 +13449,16 @@ idea_variation_act_279 = {
 \tpotential = {
 \t\thas_idea_group = defensive_ideas
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tland_morale = 0.07
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13226,16 +13471,16 @@ idea_variation_act_280 = {
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tland_morale = 0.15
 \tdiscipline = -0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -13252,16 +13497,16 @@ idea_variation_act_281 = {
 \tpotential = {
 \t\thas_idea_group = offensive_ideas
 \t\thas_idea_group = entwicklung0
-
+\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tglobal_regiment_cost = -0.15
 \tglobal_regiment_recruit_speed = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13274,16 +13519,16 @@ idea_variation_act_282 = {
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tartillery_power = 0.20
 \tartillery_cost = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13296,16 +13541,16 @@ idea_variation_act_283 = {
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_autonomy = -0.2
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13318,22 +13563,22 @@ idea_variation_act_284 = {
 \tpotential = {
 \t\thas_idea_group = quality_ideas
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -13352,16 +13597,16 @@ idea_variation_act_285 = {
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_missionary_strength = 0.01
 \tmissionaries = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -13375,7 +13620,7 @@ idea_variation_act_285 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -13383,7 +13628,7 @@ idea_variation_act_285 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -13394,16 +13639,15 @@ idea_variation_act_286 = {
 \tpotential = {
 \t\thas_idea_group = quantity_ideas
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
-\tstate_maintenance_modifier = 0.5
-\tgoverning_capacity = 150
-
+\t
+\tstate_maintenance_modifier = -0.75
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13416,15 +13660,15 @@ idea_variation_act_286 = {
 #\tpotential = {
 #\t\thas_idea_group = quantity_ideas
 #\t\thas_idea_group = diktatur0
-#
+#\t\t
 #\t}
 #\tallow = {
 #\t\tfull_idea_group = quantity_ideas
 #\t\tfull_idea_group = diktatur0
 #\t}
-#
-#
-#
+#\t
+#\t
+#\t
 #\tai_will_do = {
 #\t\tfactor = 1
 #\t}
@@ -13437,17 +13681,17 @@ idea_variation_act_288 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tfire_damage = 0.025
 \tshock_damage = 0.025
 \tcore_creation = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13459,16 +13703,16 @@ idea_variation_act_289 = {
 
 \tpotential = {
 \t\thas_idea_group = generalstab0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tarmy_tradition = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13486,21 +13730,21 @@ idea_variation_act_290 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tfree_leader_pool = 1
 \tadvisor_pool = 3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13513,7 +13757,7 @@ idea_variation_act_291 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -13523,7 +13767,7 @@ idea_variation_act_291 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -13541,13 +13785,17 @@ idea_variation_act_291 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -13557,7 +13805,7 @@ idea_variation_act_291 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -13575,11 +13823,15 @@ idea_variation_act_291 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tmissionaries = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -13593,7 +13845,7 @@ idea_variation_act_291 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -13601,7 +13853,7 @@ idea_variation_act_291 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -13612,18 +13864,18 @@ idea_variation_act_292 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = justiz0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tlegitimacy = 2
-\trepublican_tradition = 0.3
+\trepublican_tradition = 1
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13636,16 +13888,16 @@ idea_variation_act_293 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tsailors_recovery_speed = 0.15
 \tmanpower_recovery_speed = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13659,17 +13911,17 @@ idea_variation_act_294 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 10
 \tglobal_unrest = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13683,17 +13935,17 @@ idea_variation_act_294_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 20
 \tglobal_unrest = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13707,17 +13959,17 @@ idea_variation_act_294_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 30
 \tglobal_unrest = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13731,17 +13983,17 @@ idea_variation_act_294_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 40
 \tglobal_unrest = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13754,15 +14006,15 @@ idea_variation_act_295 = {
 \tpotential = {
 \t\thas_idea_group = generalstab0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = generalstab0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \treinforce_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13775,22 +14027,22 @@ idea_variation_act_296 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
 \tglobal_tax_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -13808,16 +14060,16 @@ idea_variation_act_297 = {
 
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13830,17 +14082,17 @@ idea_variation_act_298 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13853,15 +14105,15 @@ idea_variation_act_299 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tglobal_regiment_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13874,7 +14126,7 @@ idea_variation_act_300 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -13884,7 +14136,7 @@ idea_variation_act_300 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -13902,13 +14154,17 @@ idea_variation_act_300 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -13918,7 +14174,7 @@ idea_variation_act_300 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -13936,13 +14192,17 @@ idea_variation_act_300 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
-
+\t
+\t
 \tmissionaries = 1
 \tglobal_missionary_strength = 0.02
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -13956,7 +14216,7 @@ idea_variation_act_300 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -13964,7 +14224,7 @@ idea_variation_act_300 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -13975,15 +14235,15 @@ idea_variation_act_301 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_unrest = -3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -13996,12 +14256,12 @@ idea_variation_act_302 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -14011,14 +14271,20 @@ idea_variation_act_302 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
 \t\t}
-
+\t\t
 \t}
-
+\t
 \tdevelopment_cost = -0.1
 \tfort_maintenance_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14032,16 +14298,16 @@ idea_variation_act_303 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = diktatur0
 \t}
-
-\tland_forcelimit = 15
-
+\t
+\tland_forcelimit = 5
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14055,16 +14321,16 @@ idea_variation_act_303_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = diktatur0
 \t}
-
-\tland_forcelimit = 25
-
+\t
+\tland_forcelimit = 10
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14078,16 +14344,16 @@ idea_variation_act_303_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = diktatur0
 \t}
-
-\tland_forcelimit = 35
-
+\t
+\tland_forcelimit = 15
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14101,16 +14367,16 @@ idea_variation_act_303_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = diktatur0
 \t}
-
-\tland_forcelimit = 40
-
+\t
+\tland_forcelimit = 20
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14123,15 +14389,15 @@ idea_variation_act_304 = {
 \tpotential = {
 \t\thas_idea_group = stehendesheer0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = stehendesheer0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14142,18 +14408,18 @@ idea_variation_act_305 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tmercenary_cost = -0.15
 \tmerc_maintenance_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14164,9 +14430,9 @@ idea_variation_act_306 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -14176,7 +14442,7 @@ idea_variation_act_306 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -14194,13 +14460,17 @@ idea_variation_act_306 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -14210,7 +14480,7 @@ idea_variation_act_306 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -14228,12 +14498,16 @@ idea_variation_act_306 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
-\tpossible_mercenaries = 0.35
+\t
+\tmercenary_manpower = 0.15
 \tmercenary_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14244,26 +14518,26 @@ idea_variation_act_307 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\tOR = {
 \t\thas_idea_group = aristo0
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tOR = {
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \twar_exhaustion = -0.05
 \tglobal_unrest = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14274,19 +14548,19 @@ idea_variation_act_308 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = republik0
 \t}
-
-\trepublican_tradition = 0.3
-
+\t
+\trepublican_tradition = 1
+\t
 \tai_will_do = {
-\t\tfactor = 1
+\t\tfactor = 1\t\t
 \t}
 }
 
@@ -14295,17 +14569,17 @@ idea_variation_act_309 = {
 \tmonarch_power = MIL\t\t# Besonderer Fall
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = diktatur0
 \t}
-
-\tpossible_mercenaries = 1.0
-
+\t
+\tmercenary_manpower = 1.0
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14316,17 +14590,17 @@ idea_variation_act_310 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tyearly_corruption = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14337,17 +14611,17 @@ idea_variation_act_311 = {
 \tmonarch_power = MIL
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14358,17 +14632,17 @@ idea_variation_act_312 = {
 \tmonarch_power = ADM
 
 \tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14381,7 +14655,7 @@ idea_variation_act_313 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -14391,7 +14665,7 @@ idea_variation_act_313 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -14409,13 +14683,17 @@ idea_variation_act_313 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -14425,7 +14703,7 @@ idea_variation_act_313 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -14443,11 +14721,15 @@ idea_variation_act_313 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
-\tmissionaries = 1
-
+\t
+\tmissionaries = 1\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -14461,7 +14743,7 @@ idea_variation_act_313 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.6 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.4 }
@@ -14469,7 +14751,7 @@ idea_variation_act_313 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tNOT = { religious_unity = 0.2 }
-\t\t}
+\t\t}\t\t\t
 \t}
 }
 
@@ -14484,20 +14766,20 @@ idea_variation_act_314 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = wehrpflicht0
+\t\tfull_idea_group = wehrpflicht0 
 \t\tOR = {
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14510,16 +14792,16 @@ idea_variation_act_315 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tglobal_regiment_cost = -0.10
 \tglobal_regiment_recruit_speed = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14532,7 +14814,7 @@ idea_variation_act_316 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
@@ -14542,13 +14824,13 @@ idea_variation_act_316 = {
 \ttrade_efficiency = 0.1
 \tglobal_tax_modifier = 0.1
 \tproduction_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -14564,7 +14846,7 @@ idea_variation_act_316 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -14575,16 +14857,16 @@ idea_variation_act_317 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tyears_of_nationalism = -3
 \tyearly_corruption = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14596,18 +14878,18 @@ idea_variation_act_318 = {
 
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14620,15 +14902,15 @@ idea_variation_act_319 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -14645,16 +14927,16 @@ idea_variation_act_320 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tinfantry_power = 0.125
 \tcavalry_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14667,15 +14949,15 @@ idea_variation_act_321 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tland_morale = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -14692,15 +14974,15 @@ idea_variation_act_322 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14713,15 +14995,15 @@ idea_variation_act_323 = {
 \tpotential = {
 \t\thas_idea_group = wehrpflicht0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.125
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14734,29 +15016,29 @@ idea_variation_act_324 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = administrative_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
-\t\t\tamount = 2
+\t\t\tamount = 3
 \t\t\thas_active_policy = idea_variation_act_636
 \t\t\thas_active_policy = idea_variation_act_660
 \t\t\thas_active_policy = idea_variation_act_12
 \t\t\thas_active_policy = idea_variation_act_31
 \t\t\thas_active_policy = idea_variation_act_324
-
+\t
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \treinforce_speed = 0.1
 \tland_attrition = -0.1
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -14777,7 +15059,7 @@ idea_variation_act_325 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -14787,7 +15069,7 @@ idea_variation_act_325 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -14805,13 +15087,17 @@ idea_variation_act_325 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -14821,7 +15107,7 @@ idea_variation_act_325 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -14839,11 +15125,15 @@ idea_variation_act_325 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tartillery_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14860,7 +15150,7 @@ idea_variation_act_326 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
@@ -14870,10 +15160,10 @@ idea_variation_act_326 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tleader_land_fire = 1
 \tleader_land_shock = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14886,15 +15176,15 @@ idea_variation_act_327 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \trange = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14906,16 +15196,16 @@ idea_variation_act_328 = {
 
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -14928,18 +15218,18 @@ idea_variation_act_329 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_institution_spread = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -14950,15 +15240,15 @@ idea_variation_act_330 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -14975,19 +15265,19 @@ idea_variation_act_331 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tinfantry_power = 0.1
 \tcavalry_power = 0.1
 \tartillery_power = 0.1
 \tglobal_unrest = 3
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15000,22 +15290,22 @@ idea_variation_act_332 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tembargo_efficiency = 0.25
 \tproduction_efficiency = 0.20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -15031,7 +15321,7 @@ idea_variation_act_332 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.5
-\t\t}
+\t\t}\t\t
 \t}
 }
 
@@ -15042,12 +15332,12 @@ idea_variation_act_333 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = gesundheit0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -15062,9 +15352,9 @@ idea_variation_act_333 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15077,12 +15367,12 @@ idea_variation_act_334 = {
 \tpotential = {
 \t\thas_idea_group = waffenqualitat0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = waffenqualitat0
 \t\tfull_idea_group = staatsverwaltung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -15097,9 +15387,9 @@ idea_variation_act_334 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tinterest = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15112,22 +15402,22 @@ idea_variation_act_335 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_tax_modifier = 0.2
 \tfort_maintenance_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -15146,15 +15436,27 @@ idea_variation_act_336 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = expansion_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -15170,18 +15472,18 @@ idea_variation_act_337 = {
 
 \tpotential = {
 \t\thas_idea_group = festung0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tshock_damage_received = -0.05
 \tfire_damage_received = -0.05
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15194,15 +15496,15 @@ idea_variation_act_338 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -15214,21 +15516,21 @@ idea_variation_act_338 = {
 
 idea_variation_act_339 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tglobal_garrison_growth = 0.2
 \tglobal_manpower_modifier = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15241,12 +15543,12 @@ idea_variation_act_340 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -15256,13 +15558,19 @@ idea_variation_act_340 = {
 \t\t\thas_active_policy = idea_variation_act_238
 \t\t\thas_active_policy = idea_variation_act_302
 \t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tfort_maintenance_modifier = -0.1
-\tdevelopment_cost = -0.1
-
+\tdevelopment_cost = -0.1\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15275,16 +15583,16 @@ idea_variation_act_341 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tdefensiveness = 0.33
 \tglobal_unrest = 3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15297,16 +15605,16 @@ idea_variation_act_342 = {
 \tpotential = {
 \t\thas_idea_group = festung0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = festung0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tstate_maintenance_modifier = -0.5
 \tyearly_corruption = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15319,22 +15627,22 @@ idea_variation_act_343 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.1
 \tproduction_efficiency = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -15350,7 +15658,7 @@ idea_variation_act_343 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -15361,7 +15669,7 @@ idea_variation_act_344 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -15371,7 +15679,7 @@ idea_variation_act_344 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -15389,13 +15697,17 @@ idea_variation_act_344 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -15405,7 +15717,7 @@ idea_variation_act_344 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -15423,12 +15735,16 @@ idea_variation_act_344 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \ttolerance_heathen = 2
 \ttolerance_heretic = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15445,7 +15761,7 @@ idea_variation_act_345 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
@@ -15455,15 +15771,15 @@ idea_variation_act_345 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_own_trade_power = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -15479,7 +15795,7 @@ idea_variation_act_345 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -15489,17 +15805,17 @@ idea_variation_act_346 = {
 
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
-\t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = humanist_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
-\t\tfull_idea_group = humanist_ideas
+\t\tfull_idea_group = humanist_ideas 
 \t}
-
+\t
 \tglobal_regiment_cost = -0.15
 \tglobal_regiment_recruit_speed = -0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15512,22 +15828,22 @@ idea_variation_act_347 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tproduction_efficiency = 0.1
 \tglobal_trade_goods_size_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -15543,7 +15859,7 @@ idea_variation_act_347 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -15554,23 +15870,23 @@ idea_variation_act_348 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.25
 \tglobal_unrest = 3
 \tglobal_autonomy = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -15586,7 +15902,7 @@ idea_variation_act_348 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -15597,22 +15913,22 @@ idea_variation_act_349 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.2
 \tglobal_tax_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { trade_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.2
@@ -15628,7 +15944,7 @@ idea_variation_act_349 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttrade_income_percentage = 0.5
-\t\t}
+\t\t}\t
 \t}
 }
 
@@ -15639,16 +15955,16 @@ idea_variation_act_350 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = gesundheit0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.15
 \tsailors_recovery_speed = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15661,15 +15977,15 @@ idea_variation_act_351 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15682,15 +15998,15 @@ idea_variation_act_262 = {
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 5
 \t\tmodifier = {
@@ -15708,15 +16024,15 @@ idea_variation_act_352 = {
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15729,16 +16045,16 @@ idea_variation_act_353 = {
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \treinforce_speed = 0.1
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15751,15 +16067,15 @@ idea_variation_act_354 = {
 \tpotential = {
 \t\thas_idea_group = republik0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = republik0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15776,7 +16092,7 @@ monarch_power = DIP
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = wehrpflicht0
@@ -15786,9 +16102,9 @@ monarch_power = DIP
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15806,7 +16122,7 @@ monarch_power = ADM
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gesundheit0
@@ -15816,9 +16132,9 @@ monarch_power = ADM
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tnaval_attrition = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -15843,7 +16159,7 @@ monarch_power = ADM
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = entwicklung0
@@ -15853,9 +16169,9 @@ monarch_power = ADM
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tglobal_ship_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -15880,7 +16196,7 @@ monarch_power = DIP
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
@@ -15890,9 +16206,9 @@ monarch_power = DIP
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.33
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -15916,15 +16232,15 @@ monarch_power = ADM
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\thas_idea_group = handel0
-
+\t\t
 \t\t}
-
+\t\t
 \t\tOR = {
 \t\thas_idea_group = aristo0
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tOR = {
@@ -15936,13 +16252,13 @@ monarch_power = ADM
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
+\t\t}\t
 \t}
-
+\t
 \tlegitimacy = 2
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -15954,26 +16270,26 @@ idea_variation_act_360 = {
 monarch_power = DIP
 
 \t\tpotential = {
-\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = soldnerheer0 
 \t\tOR = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
-\t\tfull_idea_group = soldnerheer0
+\t\tfull_idea_group = soldnerheer0 
 \t\tOR = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tprivateer_efficiency = 1
 \tnaval_maintenance_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -15998,7 +16314,7 @@ monarch_power = DIP
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = justiz0
@@ -16008,9 +16324,9 @@ monarch_power = DIP
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tnaval_morale = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16035,7 +16351,7 @@ monarch_power = DIP
 \t\thas_idea_group = galle0
 \t\thas_idea_group = gross0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
@@ -16045,9 +16361,9 @@ monarch_power = DIP
 \t\tfull_idea_group = gross0
 \t\t}
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -16060,15 +16376,15 @@ idea_variation_act_363 = {
 \tpotential = {
 \t\thas_idea_group = handel0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = handel0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tsiege_blockade_progress = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16089,15 +16405,15 @@ idea_variation_act_364 = {
 \tpotential = {
 \t\thas_idea_group = gross0
 \t\thas_idea_group = offensive_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gross0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \theavy_ship_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16118,23 +16434,23 @@ idea_variation_act_365 = {
 \tpotential = {
 \t\thas_idea_group = gross0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gross0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_tax_modifier = 0.2
 \theavy_ship_cost = -0.1
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0.75
 \t\t\tNOT = { tax_income_percentage = 0.25 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\ttax_income_percentage = 0.45
@@ -16153,7 +16469,7 @@ idea_variation_act_366 = {
 \tpotential = {
 \t\thas_idea_group = gross0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gross0
@@ -16161,9 +16477,9 @@ idea_variation_act_366 = {
 \t}
 
 \tnavy_tradition = 2
-\trepublican_tradition = 0.3
+\trepublican_tradition = 0.5
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -16176,17 +16492,17 @@ idea_variation_act_367 = {
 \tpotential = {
 \t\thas_idea_group = gross0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gross0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tnavy_tradition = 2
 \tprestige = 1
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t}
@@ -16199,22 +16515,22 @@ idea_variation_act_368 = {
 \tpotential = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tproduction_efficiency = 0.20
 \tgalley_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
 \t\t\tfactor = 0
 \t\t\tNOT = { production_income_percentage = 0.1 }
-\t\t}
+\t\t}\t\t\t
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.2
@@ -16230,7 +16546,7 @@ idea_variation_act_368 = {
 \t\tmodifier = {
 \t\t\tfactor = 1.5
 \t\t\tproduction_income_percentage = 0.5
-\t\t}
+\t\t}\t\t
 \t}
 }
 
@@ -16242,17 +16558,17 @@ idea_variation_act_369 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = galle0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tnavy_tradition = 1
 \tnaval_forcelimit = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16274,17 +16590,17 @@ idea_variation_act_369_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = galle0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tnavy_tradition = 1
 \tnaval_forcelimit = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16306,17 +16622,17 @@ idea_variation_act_369_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = galle0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tnavy_tradition = 1
 \tnaval_forcelimit = 30
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16338,17 +16654,17 @@ idea_variation_act_369_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = galle0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tnavy_tradition = 1
 \tnaval_forcelimit = 40
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16369,16 +16685,16 @@ idea_variation_act_370 = {
 \tpotential = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tgalley_power = 0.25\t\t\t\t# Marine
 \tnaval_morale = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16399,15 +16715,15 @@ idea_variation_act_371 = {
 \tpotential = {
 \t\thas_idea_group = gross0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = gross0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \theavy_ship_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16429,16 +16745,16 @@ idea_variation_act_372 = {
 \tpotential = {
 \t\thas_idea_group = galle0
 \t\thas_idea_group = festung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = galle0
 \t\tfull_idea_group = festung0
 \t}
-
+\t
 \tgalley_power = 0.075\t\t\t\t# Marine
 \tcapture_ship_chance = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -16460,19 +16776,19 @@ idea_variation_act_373 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_manpower = 10.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16484,19 +16800,19 @@ idea_variation_act_373_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_manpower = 20.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16508,19 +16824,19 @@ idea_variation_act_373_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_manpower = 30.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16532,19 +16848,19 @@ idea_variation_act_373_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tglobal_manpower = 40.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16555,20 +16871,20 @@ idea_variation_act_374 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tcavalry_power = 0.075
 \tartillery_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16579,18 +16895,18 @@ idea_variation_act_375 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16601,18 +16917,18 @@ idea_variation_act_376 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tland_morale = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16623,19 +16939,19 @@ idea_variation_act_377 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = humanist_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = humanist_ideas
 \t}
-
+\t
 \tfire_damage = 0.05
 \tshock_damage = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16646,7 +16962,7 @@ idea_variation_act_378 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -16656,7 +16972,7 @@ idea_variation_act_378 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -16674,13 +16990,17 @@ idea_variation_act_378 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -16690,7 +17010,7 @@ idea_variation_act_378 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -16708,15 +17028,19 @@ idea_variation_act_378 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tmissionaries = 1
 \tglobal_unrest = -1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16727,18 +17051,18 @@ idea_variation_act_379 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = justiz0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16749,19 +17073,19 @@ idea_variation_act_380 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = entwicklung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tfort_maintenance_modifier = -0.1
 \tland_maintenance_modifier = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16772,18 +17096,18 @@ idea_variation_act_381 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16798,7 +17122,7 @@ idea_variation_act_382 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
@@ -16808,13 +17132,13 @@ idea_variation_act_382 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tland_morale = 0.05
 \tshock_damage = 0.025
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16825,18 +17149,18 @@ idea_variation_act_383 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = republik0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = republik0
 \t}
-
+\t
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16848,19 +17172,19 @@ idea_variation_act_384 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 5.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16872,19 +17196,19 @@ idea_variation_act_384_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 10.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16896,19 +17220,19 @@ idea_variation_act_384_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 15.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16920,19 +17244,19 @@ idea_variation_act_384_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 20.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16943,19 +17267,19 @@ idea_variation_act_385 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tleader_land_fire = 1
 \tshock_damage_received = -0.025
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16965,19 +17289,19 @@ idea_variation_act_386 = {
 
 \tpotential = {
 \t\thas_idea_group = militarismus0
-\t\thas_idea_group = spy_ideas
-
+\t\thas_idea_group = spy_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t}
-
+\t
 \tglobal_spy_defence = 0.35
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -16988,18 +17312,18 @@ idea_variation_act_387 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = dynasty0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = dynasty0
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17009,19 +17333,19 @@ idea_variation_act_388 = {
 
 \tpotential = {
 \t\thas_idea_group = militarismus0
-\t\thas_idea_group = influence_ideas
-
+\t\thas_idea_group = influence_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17031,19 +17355,19 @@ idea_variation_act_389 = {
 
 \tpotential = {
 \t\thas_idea_group = militarismus0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17054,19 +17378,19 @@ idea_variation_act_390 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = exploration_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tglobal_colonial_growth = 35
 \tnative_uprising_chance = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17077,18 +17401,18 @@ idea_variation_act_391 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = maritime_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \tnaval_morale = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17099,18 +17423,18 @@ idea_variation_act_392 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = gross0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = gross0
 \t}
-
+\t
 \theavy_ship_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17121,18 +17445,18 @@ idea_variation_act_393 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = galle0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tgalley_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17143,20 +17467,20 @@ idea_variation_act_394 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = handel0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = handel0
 \t}
-
+\t
 \tlight_ship_power = 0.15\t\t\t\t# Marine
 \ttransport_power = 0.15
 \tprivateer_efficiency = 1.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17167,20 +17491,20 @@ idea_variation_act_395 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tglobal_manpower_modifier = 0.1
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17191,18 +17515,18 @@ idea_variation_act_396 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = assimilation0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = assimilation0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.125
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17213,12 +17537,12 @@ idea_variation_act_397 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = gesellschaft0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = gesellschaft0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -17233,13 +17557,13 @@ idea_variation_act_397 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tinterest = -1
 \tinflation_reduction = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17250,18 +17574,18 @@ idea_variation_act_398 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \twar_exhaustion = -0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17272,18 +17596,18 @@ idea_variation_act_399 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = flottenbasis0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17294,21 +17618,21 @@ idea_variation_act_400 = {
 \tpotential = {
 \t\thas_idea_group = militarismus0
 \t\thas_idea_group = nationalismus0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tlegitimacy = 2
-\trepublican_tradition = 0.3
+\trepublican_tradition = 1
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17324,7 +17648,7 @@ idea_variation_act_401 = {
 \t\t}
 
 
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = militarismus0
@@ -17333,13 +17657,13 @@ idea_variation_act_401 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_autonomy = -0.05
 \timperial_authority = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17350,18 +17674,18 @@ idea_variation_act_402 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17372,19 +17696,19 @@ idea_variation_act_403 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = economic_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tglobal_institution_spread = 0.1
 \tembracement_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17395,18 +17719,18 @@ idea_variation_act_404 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = expansion_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
-\tmovement_speed = 0.25
-
+\t
+\tmovement_speed = 0.25\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17417,19 +17741,19 @@ idea_variation_act_405 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = administrative_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tshock_damage_received = -0.05
 \tfire_damage_received = -0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17440,18 +17764,18 @@ idea_variation_act_406 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = humanist_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = humanist_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17462,7 +17786,7 @@ idea_variation_act_407 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -17472,7 +17796,7 @@ idea_variation_act_407 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -17490,13 +17814,17 @@ idea_variation_act_407 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -17506,7 +17834,7 @@ idea_variation_act_407 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -17524,14 +17852,18 @@ idea_variation_act_407 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17542,18 +17874,18 @@ idea_variation_act_408 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = justiz0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = justiz0
 \t}
-
-\tland_morale = 0.05
-
+\t
+\tland_morale = 0.05\t\t\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17564,18 +17896,33 @@ idea_variation_act_409 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = entwicklung0
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tfire_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17586,18 +17933,18 @@ idea_variation_act_410 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = gesundheit0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = gesundheit0
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17612,7 +17959,7 @@ idea_variation_act_411 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
@@ -17622,13 +17969,13 @@ idea_variation_act_411 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tinfantry_power = 0.075
 \tshock_damage = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17640,19 +17987,19 @@ idea_variation_act_412 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = formation0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = republik0
 \t}
-
-\tland_forcelimit = 15
-
+\t
+\tland_forcelimit = 5
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17664,19 +18011,19 @@ idea_variation_act_412_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = formation0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = republik0
 \t}
-
-\tland_forcelimit = 25
-
+\t
+\tland_forcelimit = 10
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17688,19 +18035,19 @@ idea_variation_act_412_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = formation0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = republik0
 \t}
-
-\tland_forcelimit = 35
-
+\t
+\tland_forcelimit = 15
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17712,19 +18059,19 @@ idea_variation_act_412_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = formation0
 \t\thas_idea_group = republik0
-
+\t\t\t
 \t}
 \tallow = {
-\t\tcurrent_age = age_of_revolutions
+\t\tcurrent_age = age_of_revolutions\t
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = republik0
 \t}
-
-\tland_forcelimit = 40
-
+\t
+\tland_forcelimit = 20
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17736,21 +18083,21 @@ idea_variation_act_413 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = formation0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 10.0
 \tshock_damage_received = 0.2
 \tshock_damage = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17762,21 +18109,21 @@ idea_variation_act_413_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = formation0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 20.0
 \tshock_damage_received = 0.2
 \tshock_damage = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17788,21 +18135,21 @@ idea_variation_act_413_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = formation0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 30.0
 \tshock_damage_received = 0.2
 \tshock_damage = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17814,21 +18161,21 @@ idea_variation_act_413_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = formation0
 \t\thas_idea_group = diktatur0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tglobal_manpower = 40.0
 \tshock_damage_received = 0.2
 \tshock_damage = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17839,19 +18186,19 @@ idea_variation_act_414 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = staatsverwaltung0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = staatsverwaltung0
 \t}
-
+\t
 \tfire_damage = 0.05
 \tfire_damage_received = -0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17861,19 +18208,19 @@ idea_variation_act_415 = {
 
 \tpotential = {
 \t\thas_idea_group = formation0
-\t\thas_idea_group = spy_ideas
-
+\t\thas_idea_group = spy_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
-\t\tfull_idea_group = spy_ideas
+\t\tfull_idea_group = spy_ideas 
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17884,18 +18231,18 @@ idea_variation_act_416 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = dynasty0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = dynasty0
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17905,19 +18252,19 @@ idea_variation_act_417 = {
 
 \tpotential = {
 \t\thas_idea_group = formation0
-\t\thas_idea_group = influence_ideas
-
+\t\thas_idea_group = influence_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
-\t\tfull_idea_group = influence_ideas
+\t\tfull_idea_group = influence_ideas 
 \t}
-
+\t
 \tland_morale = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17927,19 +18274,31 @@ idea_variation_act_418 = {
 
 \tpotential = {
 \t\thas_idea_group = formation0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17950,18 +18309,33 @@ idea_variation_act_419 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = exploration_ideas
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = exploration_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tfire_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17972,21 +18346,21 @@ idea_variation_act_420 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \tgalley_power = 0.075
 \theavy_ship_power = 0.075
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -17997,19 +18371,19 @@ idea_variation_act_421 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = gross0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = gross0
 \t}
-
+\t
 \tnavy_tradition = 1
 \tnaval_morale = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18020,18 +18394,18 @@ idea_variation_act_422 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = galle0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tgalley_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18042,18 +18416,18 @@ idea_variation_act_423 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = handel0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = handel0
 \t}
-
+\t
 \theavy_ship_power = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18064,18 +18438,18 @@ idea_variation_act_424 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18086,12 +18460,12 @@ idea_variation_act_425 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = assimilation0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = assimilation0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -18102,16 +18476,18 @@ idea_variation_act_425 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18122,18 +18498,18 @@ idea_variation_act_426 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = gesellschaft0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18144,18 +18520,18 @@ idea_variation_act_427 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = propaganda0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_unrest = -3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18166,20 +18542,20 @@ idea_variation_act_428 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = flottenbasis0
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
-
+\t
+\t
 \tnaval_morale = 0.1
 \tnaval_forcelimit_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18190,18 +18566,18 @@ idea_variation_act_429 = {
 \tpotential = {
 \t\thas_idea_group = formation0
 \t\thas_idea_group = nationalismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tenemy_core_creation = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18215,7 +18591,7 @@ idea_variation_act_430 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = formation0
@@ -18224,13 +18600,13 @@ idea_variation_act_430 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tnum_accepted_cultures = 1
 \ttrade_steering = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18245,7 +18621,7 @@ idea_variation_act_431 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = offensive_ideas
@@ -18255,13 +18631,13 @@ idea_variation_act_431 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tmercenary_discipline = 0.05
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18276,7 +18652,7 @@ idea_variation_act_432 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = defensive_ideas
@@ -18286,13 +18662,13 @@ idea_variation_act_432 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tglobal_own_trade_power = 0.2
 \tembargo_efficiency = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18307,7 +18683,7 @@ idea_variation_act_433 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quality_ideas
@@ -18317,14 +18693,14 @@ idea_variation_act_433 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tlegitimacy = 2
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18339,7 +18715,7 @@ idea_variation_act_434 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = quantity_ideas
@@ -18349,13 +18725,13 @@ idea_variation_act_434 = {
 \t\tfull_idea_group = horde0
 \t\t}
 \t}
-
+\t
 \tland_morale = 0.05
 \tinfantry_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18367,26 +18743,26 @@ idea_variation_act_435 = {
 
 \t\tOR = {
 \t\thas_idea_group = galle0
-\t\thas_idea_group = gross0
+\t\thas_idea_group = gross0\t
 \t\t}
 \t\thas_idea_group = quality_ideas
-
-
+\t\t
+\t\t
 \t}
 \tallow = {
 \t\tOR = {
 \t\t\tfull_idea_group = galle0
 \t\t\tfull_idea_group = gross0
 \t\t\t}
-
+\t\t
 \t\t\tfull_idea_group = quality_ideas
-
-
+\t\t\t
+\t\t
 \t}
-
-
+\t
+\t
 \tnaval_morale = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -18412,23 +18788,23 @@ idea_variation_act_436 = {
 \t\thas_idea_group = handel0
 \t\t}
 \t\thas_idea_group = generalstab0
-
-
+\t\t
+\t\t\t
 \t}
 \tallow = {
 \t\tOR = {
 \t\t\tfull_idea_group = galle0
 \t\t\tfull_idea_group = handel0
 \t\t\t}
-
+\t\t
 \t\t\tfull_idea_group = generalstab0
-
-
+\t\t\t
+\t\t
 \t}
-
+\t
 \tleader_naval_manuever = 1\t\t\t\t# Marine
 \tleader_naval_shock = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
 \t\tmodifier = {
@@ -18449,19 +18825,19 @@ idea_variation_act_437 = {
 \tpotential = {
 \t\thas_idea_group = kriegsproduktion0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = kriegsproduktion0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \ttrade_efficiency = 0.1
 \tglobal_trade_goods_size_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18472,7 +18848,7 @@ idea_variation_act_438 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -18482,7 +18858,7 @@ idea_variation_act_438 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -18500,13 +18876,17 @@ idea_variation_act_438 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -18516,7 +18896,7 @@ idea_variation_act_438 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -18534,14 +18914,30 @@ idea_variation_act_438 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
 \t\t}
+\t\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}\t
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18557,23 +18953,23 @@ idea_variation_act_439 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
+\t\t}\t
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18584,18 +18980,18 @@ idea_variation_act_440 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = innovativeness_ideas
 \t}
-
+\t
 \tcore_creation = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18606,18 +19002,18 @@ idea_variation_act_441 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = spy_ideas
 \t}
-
-\tcav_to_inf_ratio = 0.15
-
+\t
+\tcav_to_inf_ratio = 0.15\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18628,19 +19024,19 @@ idea_variation_act_442 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = dynasty0
 \t}
-
+\t
 \tshock_damage = 0.075
 \tleader_siege = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18651,19 +19047,19 @@ idea_variation_act_443 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = influence_ideas
 \t}
-
-
+\t
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18673,20 +19069,20 @@ idea_variation_act_444 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tembargo_efficiency = 0.25
 \tglobal_foreign_trade_power = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18697,18 +19093,30 @@ idea_variation_act_445 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = economic_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18719,19 +19127,19 @@ idea_variation_act_446 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
-
+\t
+\t
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18742,21 +19150,21 @@ idea_variation_act_447 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \theavy_ship_power = 0.075
 \tgalley_power = 0.075\t\t\t\t# Marine
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18767,18 +19175,18 @@ idea_variation_act_448 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tdiplomatic_annexation_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18789,18 +19197,18 @@ idea_variation_act_449 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tglobal_missionary_strength = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18811,18 +19219,33 @@ idea_variation_act_450 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = humanist_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = humanist_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18832,19 +19255,19 @@ idea_variation_act_451 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = justiz0
-
+\t\thas_idea_group = justiz0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = justiz0
+\t\tfull_idea_group = justiz0 
 \t}
-
-\tland_morale = 0.07
-
+\t
+\tland_morale = 0.07\t\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18855,12 +19278,12 @@ idea_variation_act_452 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = entwicklung0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -18869,12 +19292,12 @@ idea_variation_act_452 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_time = -0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18884,19 +19307,19 @@ idea_variation_act_453 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = gesundheit0
-
+\t\thas_idea_group = gesundheit0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = gesundheit0
+\t\tfull_idea_group = gesundheit0 
 \t}
-
+\t
 \tglobal_unrest = -3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18907,18 +19330,18 @@ idea_variation_act_454 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18928,19 +19351,19 @@ idea_variation_act_455 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = gross0
-
+\t\thas_idea_group = gross0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = gross0
+\t\tfull_idea_group = gross0 
 \t}
-
+\t
 \theavy_ship_power = 0.15\t\t\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18951,19 +19374,19 @@ idea_variation_act_456 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = handel0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = handel0
 \t}
-
+\t
 \tlight_ship_power = 0.2\t\t\t\t\t\t# Marine
 \ttransport_power = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18974,18 +19397,18 @@ idea_variation_act_457 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tgalley_power = 0.15\t\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -18996,18 +19419,18 @@ idea_variation_act_458 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19017,20 +19440,20 @@ idea_variation_act_459 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = assimilation0
-
+\t\thas_idea_group = assimilation0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = assimilation0
+\t\tfull_idea_group = assimilation0 
 \t}
-
-\tcavalry_power = 0.1
+\t
+\tcavalry_power = 0.1\t\t
 \tcav_to_inf_ratio = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19041,18 +19464,18 @@ idea_variation_act_460 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tculture_conversion_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19064,19 +19487,19 @@ idea_variation_act_461 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = shock0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_manpower = 10.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19088,19 +19511,19 @@ idea_variation_act_461_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = shock0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_manpower = 20.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19112,19 +19535,19 @@ idea_variation_act_461_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = shock0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_manpower = 30.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19136,19 +19559,19 @@ idea_variation_act_461_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = shock0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tglobal_manpower = 40.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19160,20 +19583,20 @@ idea_variation_act_462 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = shock0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tglobal_sailors = 2500
 \tnaval_forcelimit = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19185,20 +19608,20 @@ idea_variation_act_462_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = shock0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tglobal_sailors = 5000
 \tnaval_forcelimit = 20
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19210,20 +19633,20 @@ idea_variation_act_462_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = shock0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tglobal_sailors = 7500
 \tnaval_forcelimit = 30
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19235,20 +19658,20 @@ idea_variation_act_462_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = shock0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tglobal_sailors = 10000
 \tnaval_forcelimit = 40
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19259,19 +19682,19 @@ idea_variation_act_463 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = nationalismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tshock_damage = 0.05
 \tshock_damage_received = -0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19286,7 +19709,7 @@ idea_variation_act_464 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
@@ -19296,12 +19719,12 @@ idea_variation_act_464 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 5000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19316,7 +19739,7 @@ idea_variation_act_464_1 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
@@ -19326,12 +19749,12 @@ idea_variation_act_464_1 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 10000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19346,7 +19769,7 @@ idea_variation_act_464_2 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
@@ -19356,12 +19779,12 @@ idea_variation_act_464_2 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 15000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19376,7 +19799,7 @@ idea_variation_act_464_3 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
@@ -19386,12 +19809,12 @@ idea_variation_act_464_3 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_sailors = 20000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19401,19 +19824,19 @@ idea_variation_act_465 = {
 
 \tpotential = {
 \t\thas_idea_group = shock0
-\t\thas_idea_group = staatsverwaltung0
-
+\t\thas_idea_group = staatsverwaltung0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
-\t\tfull_idea_group = staatsverwaltung0
+\t\tfull_idea_group = staatsverwaltung0 
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19424,18 +19847,18 @@ idea_variation_act_466 = {
 \tpotential = {
 \t\thas_idea_group = shock0
 \t\thas_idea_group = zentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = zentra0
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19447,20 +19870,20 @@ idea_variation_act_467 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = shock0
 \t\thas_idea_group = dezentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = dezentra0
 \t}
-
+\t
 \tglobal_manpower = 7.5
 \tglobal_manpower_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19472,20 +19895,20 @@ idea_variation_act_467_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = shock0
 \t\thas_idea_group = dezentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = dezentra0
 \t}
-
+\t
 \tglobal_manpower = 15
 \tglobal_manpower_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19497,20 +19920,20 @@ idea_variation_act_467_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = shock0
 \t\thas_idea_group = dezentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = dezentra0
 \t}
-
+\t
 \tglobal_manpower = 22.5
 \tglobal_manpower_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19522,20 +19945,20 @@ idea_variation_act_467_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = shock0
 \t\thas_idea_group = dezentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = shock0
 \t\tfull_idea_group = dezentra0
 \t}
-
+\t
 \tglobal_manpower = 30
 \tglobal_manpower_modifier = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19546,7 +19969,7 @@ idea_variation_act_468 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\tOR = {
-\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = religious_ideas   
 \t\thas_idea_group = katholisch0
 \t\thas_idea_group = protestant0
 \t\thas_idea_group = reformiert0
@@ -19556,7 +19979,7 @@ idea_variation_act_468 = {
 \t\thas_idea_group = shinto0
 \t\thas_idea_group = norse0
 \t\thas_idea_group = budda0
-\t\thas_idea_group = confuci0
+\t\thas_idea_group = confuci0 
 \t\thas_idea_group = hindu0
 \t\thas_idea_group = tengri0
 \t\thas_idea_group = coptic0
@@ -19574,13 +19997,17 @@ idea_variation_act_468 = {
 \t\thas_idea_group = inti0
 \t\thas_idea_group = tote0
 \t\thas_idea_group = nahu0
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tOR = {
-\t\t\tfull_idea_group = religious_ideas
+\t\t\tfull_idea_group = religious_ideas 
 \t\t\tfull_idea_group = katholisch0
 \t\t\tfull_idea_group = protestant0
 \t\t\tfull_idea_group = reformiert0
@@ -19590,7 +20017,7 @@ idea_variation_act_468 = {
 \t\t\tfull_idea_group = shinto0
 \t\t\tfull_idea_group = norse0
 \t\t\tfull_idea_group = budda0
-\t\t\tfull_idea_group = confuci0
+\t\t\tfull_idea_group = confuci0 
 \t\t\tfull_idea_group = hindu0
 \t\t\tfull_idea_group = tengri0
 \t\t\tfull_idea_group = coptic0
@@ -19608,17 +20035,21 @@ idea_variation_act_468 = {
 \t\t\tfull_idea_group = inti0
 \t\t\tfull_idea_group = tote0
 \t\t\tfull_idea_group = nahu0
-\t\t}
+\t\t\tfull_idea_group = shia0
+\t\t\tfull_idea_group = ibadi0
+\t\t\tfull_idea_group = hussite0
+\t\t\tfull_idea_group = alche0
+\t\t}\t
 \t}
-
+\t
 \tlegitimacy = 2
-\trepublican_tradition = 0.3
+\trepublican_tradition = 1
 \tdevotion = 1
 \thorde_unity = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19634,24 +20065,24 @@ idea_variation_act_469 = {
 \t\thas_idea_group = monarchie0
 \t\thas_idea_group = horde0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tOR = {
-\t\tfull_idea_group = republik0
+\t\tfull_idea_group = republik0 
 \t\tfull_idea_group = aristo0
 \t\tfull_idea_group = monarchie0
 \t\tfull_idea_group = horde0
-\t\t}
+\t\t}\t
 \t}
-
+\t
 \tartillery_cost = -0.2
-\tinfantry_cost = -0.1
-
+\tinfantry_cost = -0.1\t\t\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19662,18 +20093,33 @@ idea_variation_act_470 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = innovativeness_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = innovativeness_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19684,19 +20130,19 @@ idea_variation_act_471 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = spy_ideas
 \t}
-
+\t
 \tdiplomatic_reputation = 1
 \tdiplomatic_upkeep = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19707,62 +20153,74 @@ idea_variation_act_472 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = dynasty0
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_473 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = influence_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 4
+\t\t\thas_active_policy = idea_variation_act_96
+\t\t\thas_active_policy = idea_variation_act_336
+\t\t\thas_active_policy = idea_variation_act_418
+\t\t\thas_active_policy = idea_variation_act_438
+\t\t\thas_active_policy = idea_variation_act_445
+\t\t\thas_active_policy = idea_variation_act_473
+\t\t\t}
+\t\t}
 \t}
-
+\t
 \tshock_damage_received = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_474 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = trade_ideas
-
+\t\thas_idea_group = trade_ideas 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = trade_ideas
+\t\tfull_idea_group = trade_ideas 
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19773,40 +20231,40 @@ idea_variation_act_475 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = economic_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = economic_ideas
 \t}
-
+\t
 \tproduction_efficiency = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_476 = {
 
-\tmonarch_power = MIL
+\tmonarch_power = MIL\t\t\t
 
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19817,21 +20275,21 @@ idea_variation_act_477 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \theavy_ship_power = 0.075
 \tgalley_power = 0.075\t\t\t\t# Marine
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19842,18 +20300,18 @@ idea_variation_act_478 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = expansion_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = expansion_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19864,18 +20322,18 @@ idea_variation_act_479 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = administrative_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = administrative_ideas
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19886,18 +20344,18 @@ idea_variation_act_480 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = humanist_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = humanist_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19907,19 +20365,19 @@ idea_variation_act_481 = {
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = justiz0
-
+\t\thas_idea_group = justiz0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = justiz0
+\t\tfull_idea_group = justiz0 
 \t}
-
+\t
 \tprovince_warscore_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19930,18 +20388,18 @@ idea_variation_act_482 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = entwicklung0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = entwicklung0
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19951,20 +20409,20 @@ idea_variation_act_483 = {
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = gesundheit0
-
+\t\thas_idea_group = gesundheit0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = gesundheit0
+\t\tfull_idea_group = gesundheit0 
 \t}
-
+\t
 \treinforce_speed = 0.15
 \tmanpower_recovery_speed = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19975,18 +20433,18 @@ idea_variation_act_484 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = diktatur0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = diktatur0
 \t}
-
+\t
 \treinforce_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -19996,19 +20454,19 @@ idea_variation_act_485 = {
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = gross0
-
+\t\thas_idea_group = gross0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = gross0
+\t\tfull_idea_group = gross0 
 \t}
-
+\t
 \theavy_ship_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20019,7 +20477,7 @@ idea_variation_act_486 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = handel0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
@@ -20027,10 +20485,10 @@ idea_variation_act_486 = {
 \t}
 
 \tlight_ship_power = 0.3\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20041,18 +20499,18 @@ idea_variation_act_487 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tgalley_power = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20063,18 +20521,33 @@ idea_variation_act_488 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = kolonialimperium0
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20084,19 +20557,19 @@ idea_variation_act_489 = {
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = assimilation0
-
+\t\thas_idea_group = assimilation0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = assimilation0
+\t\tfull_idea_group = assimilation0 
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20107,18 +20580,18 @@ idea_variation_act_490 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \tyearly_absolutism = 1.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20129,12 +20602,12 @@ idea_variation_act_491 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = propaganda0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -20150,12 +20623,12 @@ idea_variation_act_491 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \timprove_relation_modifier = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20166,18 +20639,18 @@ idea_variation_act_492 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \tfire_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20188,19 +20661,19 @@ idea_variation_act_493 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = nationalismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tland_maintenance_modifier = -0.2
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20214,7 +20687,7 @@ idea_variation_act_494 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
@@ -20223,12 +20696,12 @@ idea_variation_act_494 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tprestige = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20238,19 +20711,19 @@ idea_variation_act_495 = {
 
 \tpotential = {
 \t\thas_idea_group = fire0
-\t\thas_idea_group = staatsverwaltung0
-
+\t\thas_idea_group = staatsverwaltung0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
-\t\tfull_idea_group = staatsverwaltung0
+\t\tfull_idea_group = staatsverwaltung0 
 \t}
-
+\t
 \ttrade_efficiency = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20261,18 +20734,18 @@ idea_variation_act_496 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = zentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = zentra0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20283,18 +20756,33 @@ idea_variation_act_497 = {
 \tpotential = {
 \t\thas_idea_group = fire0
 \t\thas_idea_group = dezentra0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = fire0
 \t\tfull_idea_group = dezentra0
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 5
+\t\t\thas_active_policy = idea_variation_act_108
+\t\t\thas_active_policy = idea_variation_act_114
+\t\t\thas_active_policy = idea_variation_act_132
+\t\t\thas_active_policy = idea_variation_act_409
+\t\t\thas_active_policy = idea_variation_act_419
+\t\t\thas_active_policy = idea_variation_act_450
+\t\t\thas_active_policy = idea_variation_act_470
+\t\t\thas_active_policy = idea_variation_act_488
+\t\t\thas_active_policy = idea_variation_act_497
+\t\t\t}
+\t\t}
 \t}
-
-\tfire_damage_received = -0.1
-
+\t
+\tfire_damage_received = -0.1\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20306,12 +20794,12 @@ idea_variation_act_498 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = spy_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -20326,12 +20814,12 @@ idea_variation_act_498 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tidea_cost = -0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20342,20 +20830,20 @@ idea_variation_act_499 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = dynasty0
 \t}
-
+\t
 \tdiplomats = 1
 \tdiplomatic_upkeep = 1
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20366,12 +20854,12 @@ idea_variation_act_500 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = influence_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 2
@@ -20387,12 +20875,12 @@ idea_variation_act_500 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \timprove_relation_modifier = 0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20403,19 +20891,19 @@ idea_variation_act_501 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tland_morale = 0.05
 \tartillery_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20426,12 +20914,12 @@ idea_variation_act_502 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = defensive_ideas
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -20442,16 +20930,18 @@ idea_variation_act_502 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20462,18 +20952,35 @@ idea_variation_act_503 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = trade_ideas
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
-
-\tglobal_own_trade_power = 0.3
-
+\t
+\tdevelopment_cost = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20484,18 +20991,18 @@ idea_variation_act_504 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tcolonists = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20506,19 +21013,19 @@ idea_variation_act_505 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.1
 \tnaval_maintenance_modifier = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20529,18 +21036,18 @@ idea_variation_act_506 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tleader_naval_manuever = 2\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20551,18 +21058,18 @@ idea_variation_act_507 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tdiscipline = 0.03
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20573,19 +21080,19 @@ idea_variation_act_508 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = gross0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = gross0
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.15
 \tglobal_sailors_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20596,19 +21103,19 @@ idea_variation_act_509 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = handel0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = handel0
 \t}
-
+\t
 \tnaval_forcelimit_modifier = 0.33
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20620,20 +21127,20 @@ idea_variation_act_510 = {
 \t\tcurrent_age = age_of_discovery
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_discovery
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tnaval_forcelimit = 10
 \tglobal_sailors = 1000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20645,20 +21152,20 @@ idea_variation_act_510_1 = {
 \t\tcurrent_age = age_of_reformation
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_reformation
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tnaval_forcelimit = 20
 \tglobal_sailors = 2000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20670,20 +21177,20 @@ idea_variation_act_510_2 = {
 \t\tcurrent_age = age_of_absolutism
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_absolutism
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tnaval_forcelimit = 30
 \tglobal_sailors = 3000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20695,20 +21202,20 @@ idea_variation_act_510_3 = {
 \t\tcurrent_age = age_of_revolutions
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tcurrent_age = age_of_revolutions
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tnaval_forcelimit = 40
 \tglobal_sailors = 4000
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20719,18 +21226,18 @@ idea_variation_act_511 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \tglobal_tariffs = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20741,19 +21248,19 @@ idea_variation_act_512 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = assimilation0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = assimilation0
 \t}
-
+\t
 \tglobal_colonial_growth = 15
 \tculture_conversion_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20764,12 +21271,12 @@ idea_variation_act_513 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = gesellschaft0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -20784,12 +21291,12 @@ idea_variation_act_513 = {
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tinterest = -2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20800,18 +21307,35 @@ idea_variation_act_514 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = propaganda0
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tdevelopment_cost = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20822,19 +21346,19 @@ idea_variation_act_515 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \trange = 0.5
 
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20848,7 +21372,7 @@ idea_variation_act_516 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
@@ -20856,13 +21380,28 @@ idea_variation_act_516 = {
 \t\tfull_idea_group = imperialismus0
 \t\tfull_idea_group = konigreich0
 \t\t}
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 3
+\t\t\thas_active_policy = idea_variation_act_588
+\t\t\thas_active_policy = idea_variation_act_591
+\t\t\thas_active_policy = idea_variation_act_21
+\t\t\thas_active_policy = idea_variation_act_138
+\t\t\thas_active_policy = idea_variation_act_425
+\t\t\thas_active_policy = idea_variation_act_502
+\t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
+
+\t\t\t}
+\t\t}
 \t}
-
-\tgoverning_capacity = 250
-
+\t
+\tbuild_cost = -0.1
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20873,18 +21412,18 @@ idea_variation_act_517 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = nationalismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tglobal_tax_modifier = 0.3
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20896,18 +21435,18 @@ idea_variation_act_518 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = stehendesheer0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = stehendesheer0
 \t}
-
+\t
 \tland_forcelimit_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20918,20 +21457,20 @@ idea_variation_act_519 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tland_maintenance_modifier = -0.1
 \tnaval_maintenance_modifier = -0.1
 \tfort_maintenance_modifier = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20942,19 +21481,19 @@ idea_variation_act_520 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = soldnerheer0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = soldnerheer0
 \t}
+\t
+\tmercenary_manpower = 0.5
 
-\tpossible_mercenaries = 0.5
-
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20964,19 +21503,19 @@ idea_variation_act_521 = {
 
 \tpotential = {
 \t\thas_idea_group = zentra0
-\t\thas_idea_group = wehrpflicht0
-
+\t\thas_idea_group = wehrpflicht0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
-\t\tfull_idea_group = wehrpflicht0
+\t\tfull_idea_group = wehrpflicht0 
 \t}
-
+\t
 \tmanpower_recovery_speed = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -20987,18 +21526,18 @@ idea_variation_act_522 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = waffenqualitat0
 \t}
-
+\t
 \tsiege_ability = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21008,19 +21547,19 @@ idea_variation_act_523 = {
 
 \tpotential = {
 \t\thas_idea_group = zentra0
-\t\thas_idea_group = festung0
-
+\t\thas_idea_group = festung0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
-\t\tfull_idea_group = festung0
+\t\tfull_idea_group = festung0 
 \t}
-
+\t
 \tdefensiveness = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21031,19 +21570,19 @@ idea_variation_act_524 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tfire_damage = 0.05
 \tshock_damage = 0.05
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21054,19 +21593,19 @@ idea_variation_act_525 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = formation0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = formation0
 \t}
-
+\t
 \tdiplomats = 1
 \tdiplomatic_reputation = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21077,19 +21616,19 @@ idea_variation_act_526 = {
 \tpotential = {
 \t\thas_idea_group = zentra0
 \t\thas_idea_group = militarismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = zentra0
 \t\tfull_idea_group = militarismus0
 \t}
-
+\t
 \tarmy_tradition = 1
 \tarmy_tradition_decay = -0.01
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21100,62 +21639,95 @@ idea_variation_act_527 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = spy_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = spy_ideas
 \t}
-
+\t
 \tprovince_warscore_cost = -0.2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_528 = {
 
-\tmonarch_power = DIP
+\tmonarch_power = ADM
 
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = dynasty0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = dynasty0
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
-
-\tdiplomatic_upkeep = 2
-
+\t
+\tdevelopment_cost = -0.15
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
 idea_variation_act_529 = {
 
-\tmonarch_power = DIP
+\tmonarch_power = ADM
 
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = influence_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = influence_ideas
+\t\t
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 3
+\t\t\thas_active_policy = idea_variation_act_588
+\t\t\thas_active_policy = idea_variation_act_591
+\t\t\thas_active_policy = idea_variation_act_21
+\t\t\thas_active_policy = idea_variation_act_138
+\t\t\thas_active_policy = idea_variation_act_425
+\t\t\thas_active_policy = idea_variation_act_502
+\t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
+
+\t\t\t}
+\t\t}
 \t}
-
-\tdiplomatic_reputation = 2
-
+\t
+\tbuild_cost = -0.1
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21166,19 +21738,19 @@ idea_variation_act_530 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = offensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = offensive_ideas
 \t}
-
+\t
 \tadvisor_pool = 2
 \timperial_authority_value = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21189,18 +21761,18 @@ idea_variation_act_531 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = defensive_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = defensive_ideas
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21211,18 +21783,35 @@ idea_variation_act_532 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = trade_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = trade_ideas
+\t\tNOT = {
+\t\tcalc_true_if = {
+\t\t\tamount = 2
+\t\t\thas_active_policy = idea_variation_act_23
+\t\t\thas_active_policy = idea_variation_act_153
+\t\t\thas_active_policy = idea_variation_act_169
+\t\t\thas_active_policy = idea_variation_act_238
+\t\t\thas_active_policy = idea_variation_act_302
+\t\t\thas_active_policy = idea_variation_act_340
+\t\t\thas_active_policy = idea_variation_act_92
+\t\t\thas_active_policy = idea_variation_act_566
+\t\t\thas_active_policy = idea_variation_act_532
+\t\t\thas_active_policy = idea_variation_act_528
+\t\t\thas_active_policy = idea_variation_act_514
+\t\t\thas_active_policy = idea_variation_act_503
+\t\t\t}
+\t\t}
 \t}
-
-\tglobal_foreign_trade_power = 0.3
-
+\t
+\tdevelopment_cost = -0.1
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21233,18 +21822,18 @@ idea_variation_act_533 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = exploration_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = exploration_ideas
 \t}
-
+\t
 \tcolonists = 1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21255,18 +21844,18 @@ idea_variation_act_534 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = maritime_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = maritime_ideas
 \t}
-
+\t
 \tnavy_tradition = 2
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21277,19 +21866,19 @@ idea_variation_act_535 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = quality_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = quality_ideas
 \t}
-
+\t
 \tinfantry_power = 0.1
 \tcavalry_power = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21300,18 +21889,18 @@ idea_variation_act_536 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = quantity_ideas
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = quantity_ideas
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21322,18 +21911,18 @@ idea_variation_act_537 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = gross0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = gross0
 \t}
-
+\t
 \tnaval_morale = 0.15\t\t\t\t# Marine
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21344,21 +21933,21 @@ idea_variation_act_538 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = handel0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = handel0
 \t}
-
+\t
 \theavy_ship_power = 0.075
 \tgalley_power = 0.075\t\t\t\t# Marine
 \tlight_ship_power = 0.075
 \ttransport_power = 0.075
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21369,19 +21958,19 @@ idea_variation_act_539 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = galle0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = galle0
 \t}
-
+\t
 \tnaval_morale = 0.15\t\t\t\t# Marine
-
-
+\t
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21392,18 +21981,18 @@ idea_variation_act_540 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = kolonialimperium0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = kolonialimperium0
 \t}
-
+\t
 \trange = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21414,19 +22003,19 @@ idea_variation_act_541 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = assimilation0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = assimilation0
 \t}
-
+\t
 \tnum_accepted_cultures = 1
 \tculture_conversion_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21437,18 +22026,18 @@ idea_variation_act_542 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = gesellschaft0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = gesellschaft0
 \t}
-
+\t
 \treduced_liberty_desire = 10
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21459,18 +22048,18 @@ idea_variation_act_543 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = propaganda0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = propaganda0
 \t}
-
+\t
 \tyearly_absolutism = 1.0
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21481,18 +22070,18 @@ idea_variation_act_544 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = flottenbasis0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = flottenbasis0
 \t}
-
+\t
 \trange = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21506,7 +22095,7 @@ idea_variation_act_545 = {
 \t\thas_idea_group = konigreich0
 \t\thas_idea_group = imperialismus0
 \t\t}
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
@@ -21515,13 +22104,13 @@ idea_variation_act_545 = {
 \t\tfull_idea_group = konigreich0
 \t\t}
 \t}
-
+\t
 \tglobal_tax_modifier = 0.15
 \tproduction_efficiency = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21532,18 +22121,18 @@ idea_variation_act_546 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = nationalismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = nationalismus0
 \t}
-
+\t
 \tenemy_core_creation = 0.5
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21554,7 +22143,7 @@ idea_variation_act_547 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = stehendesheer0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
@@ -21563,10 +22152,10 @@ idea_variation_act_547 = {
 
 \tland_forcelimit_modifier = 0.1
 \tland_maintenance_modifier = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21577,18 +22166,18 @@ idea_variation_act_548 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = generalstab0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = generalstab0
 \t}
-
+\t
 \tglobal_manpower_modifier = 0.125
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21599,19 +22188,19 @@ idea_variation_act_549 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = soldnerheer0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = soldnerheer0
 \t}
-
-\tpossible_mercenaries = 0.25
+\t
+\tmercenary_manpower = 0.25
 \twar_exhaustion_cost = -0.25
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21621,19 +22210,19 @@ idea_variation_act_550 = {
 
 \tpotential = {
 \t\thas_idea_group = dezentra0
-\t\thas_idea_group = wehrpflicht0
-
+\t\thas_idea_group = wehrpflicht0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
-\t\tfull_idea_group = wehrpflicht0
+\t\tfull_idea_group = wehrpflicht0 
 \t}
-
+\t
 \tland_morale = 0.07
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21644,12 +22233,12 @@ idea_variation_act_551 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = waffenqualitat0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = waffenqualitat0
-
+\t\t
 \t\tNOT = {
 \t\tcalc_true_if = {
 \t\t\tamount = 3
@@ -21660,16 +22249,18 @@ idea_variation_act_551 = {
 \t\t\thas_active_policy = idea_variation_act_425
 \t\t\thas_active_policy = idea_variation_act_502
 \t\t\thas_active_policy = idea_variation_act_551
+\t\t\thas_active_policy = idea_variation_act_529
+\t\t\thas_active_policy = idea_variation_act_516
 
 \t\t\t}
 \t\t}
 \t}
-
+\t
 \tbuild_cost = -0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21679,19 +22270,19 @@ idea_variation_act_552 = {
 
 \tpotential = {
 \t\thas_idea_group = dezentra0
-\t\thas_idea_group = festung0
-
+\t\thas_idea_group = festung0 
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
-\t\tfull_idea_group = festung0
+\t\tfull_idea_group = festung0 
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21702,18 +22293,18 @@ idea_variation_act_553 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = kriegsproduktion0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = kriegsproduktion0
 \t}
-
+\t
 \tglobal_trade_goods_size_modifier = 0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21724,18 +22315,18 @@ idea_variation_act_554 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = formation0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = formation0
 \t}
-
+\t
 \tshock_damage = 0.1
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21746,18 +22337,18 @@ idea_variation_act_555 = {
 \tpotential = {
 \t\thas_idea_group = dezentra0
 \t\thas_idea_group = militarismus0
-
+\t\t
 \t}
 \tallow = {
 \t\tfull_idea_group = dezentra0
 \t\tfull_idea_group = militarismus0
 \t}
-
+\t
 \tadvisor_cost = -0.15
-
+\t
 \tai_will_do = {
 \t\tfactor = 1
-
+\t\t
 \t}
 }
 
@@ -21856,7 +22447,10 @@ basic_idea_variation_act_1 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t\t}
 \t\t}
 \t}
@@ -21957,7 +22551,10 @@ basic_idea_variation_act_2 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t\t}
 \t\t}
 \t}
@@ -22058,7 +22655,10 @@ basic_idea_variation_act_3 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t\t}
 \t\t}
 \t}
@@ -22077,12 +22677,18 @@ basic_idea_variation_act_4 = {
 \tmonarch_power = ADM
 
 \tpotential = {
+\t\tOR = {
 \t\thas_idea_group = islam0
-\t\t
-\t\t\t
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\t}
 \t}
 \tallow = {
+\t\tOR = {
 \t\tfull_idea_group = islam0
+\t\tfull_idea_group = ibadi0
+\t\tfull_idea_group = shia0
+\t\t}
 \t\thidden_trigger = {
 \t\tOR = {
 \t\thas_idea_group = katholisch0
@@ -22161,6 +22767,10 @@ basic_idea_variation_act_4 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -22178,14 +22788,20 @@ basic_idea_variation_act_4 = {
 basic_idea_variation_act_5 = {
 
 \tmonarch_power = ADM
-
+\t
 \tpotential = {
+\tOR = {
 \t\thas_idea_group = islam0
-\t\t
-\t\t\t
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\t}
 \t}
 \tallow = {
+\t\tOR = {
 \t\tfull_idea_group = islam0
+\t\tfull_idea_group = ibadi0
+\t\tfull_idea_group = shia0
+\t\t}
 \t\thidden_trigger = {
 \t\tOR = {
 \t\thas_idea_group = katholisch0
@@ -22264,7 +22880,10 @@ basic_idea_variation_act_5 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t\t}
 \t\t}
 \t\tNOT = { has_active_policy = basic_idea_variation_act_4 }
@@ -22368,7 +22987,10 @@ basic_idea_variation_act_6 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
-
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 \t\t\t}
 \t\t}
 \t}
@@ -22470,6 +23092,10 @@ basic_idea_variation_act_7 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -22573,6 +23199,10 @@ basic_idea_variation_act_7_2 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -22677,6 +23307,10 @@ basic_idea_variation_act_8 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -22781,6 +23415,10 @@ basic_idea_variation_act_9 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -22926,6 +23564,10 @@ basic_idea_variation_act_10 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23028,6 +23670,10 @@ basic_idea_variation_act_11 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23130,6 +23776,10 @@ basic_idea_variation_act_12 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23232,6 +23882,10 @@ basic_idea_variation_act_13 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23334,6 +23988,10 @@ basic_idea_variation_act_14 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23436,6 +24094,10 @@ basic_idea_variation_act_15 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23538,6 +24200,10 @@ basic_idea_variation_act_16 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23640,6 +24306,10 @@ basic_idea_variation_act_17 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23742,6 +24412,10 @@ basic_idea_variation_act_18 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23844,6 +24518,10 @@ basic_idea_variation_act_19 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -23946,6 +24624,10 @@ basic_idea_variation_act_20 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24048,6 +24730,10 @@ basic_idea_variation_act_21 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24150,6 +24836,10 @@ basic_idea_variation_act_22 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24252,6 +24942,10 @@ basic_idea_variation_act_23 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24354,6 +25048,10 @@ basic_idea_variation_act_24 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24456,6 +25154,10 @@ basic_idea_variation_act_25 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24558,6 +25260,10 @@ basic_idea_variation_act_26 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24660,12 +25366,16 @@ basic_idea_variation_act_27 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
 \t}
 \t
-\tyears_of_nationalism = -5
+\tenemy_core_creation = 0.25
 \t
 \tai_will_do = {
 \t\tfactor = 1
@@ -24762,6 +25472,10 @@ basic_idea_variation_act_28 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24864,6 +25578,10 @@ basic_idea_variation_act_29 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -24966,6 +25684,10 @@ basic_idea_variation_act_30 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25068,14 +25790,16 @@ basic_idea_variation_act_31 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
 \t}
 \t
-\t# global_regiment_recruit_speed = -0.25
-\t# manpower_recovery_speed = 0.25 
-\tyearly_army_professionalism = 0.010
+\tglobal_regiment_recruit_speed = -0.25
 \t
 \tai_will_do = {
 \t\tfactor = 1
@@ -25172,16 +25896,20 @@ basic_idea_variation_act_32 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
 \t}
 \t
-\t# privateer_efficiency = 0.25
-\trebel_support_efficiency = 0.50
+\tprivateer_efficiency = 0.25
 \t
 \tai_will_do = {
-\t\tfactor = 1\t
+\t\tfactor = 1
+\t\t
 \t}
 }
 
@@ -25274,6 +26002,10 @@ basic_idea_variation_act_33 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25376,6 +26108,10 @@ basic_idea_variation_act_34 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25478,6 +26214,10 @@ basic_idea_variation_act_35 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25580,6 +26320,10 @@ basic_idea_variation_act_36 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25682,6 +26426,10 @@ basic_idea_variation_act_37 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25784,6 +26532,10 @@ basic_idea_variation_act_38 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25886,6 +26638,10 @@ basic_idea_variation_act_39 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -25988,6 +26744,10 @@ basic_idea_variation_act_40 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26090,6 +26850,10 @@ basic_idea_variation_act_41 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26193,6 +26957,10 @@ basic_idea_variation_act_42 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26295,6 +27063,10 @@ basic_idea_variation_act_43 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26397,6 +27169,10 @@ basic_idea_variation_act_44 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26499,6 +27275,10 @@ basic_idea_variation_act_45 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26601,6 +27381,10 @@ basic_idea_variation_act_46 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26704,6 +27488,10 @@ basic_idea_variation_act_47 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26807,6 +27595,10 @@ basic_idea_variation_act_48 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -26909,6 +27701,10 @@ basic_idea_variation_act_49 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27011,6 +27807,10 @@ basic_idea_variation_act_50 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27113,6 +27913,10 @@ basic_idea_variation_act_51 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27216,6 +28020,10 @@ basic_idea_variation_act_52 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27319,6 +28127,10 @@ basic_idea_variation_act_53 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27424,6 +28236,10 @@ basic_idea_variation_act_54 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27527,6 +28343,10 @@ basic_idea_variation_act_55 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27629,6 +28449,10 @@ basic_idea_variation_act_56 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27731,6 +28555,10 @@ basic_idea_variation_act_57 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27833,6 +28661,10 @@ basic_idea_variation_act_58 = {
 \t\thas_idea_group = expansion_ideas
 \t\thas_idea_group = administrative_ideas
 \t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
 
 \t\t\t}
 \t\t}
@@ -27846,7 +28678,215 @@ basic_idea_variation_act_58 = {
 \t}
 }
 
+basic_idea_variation_act_59 = {
 
+\tmonarch_power = ADM
+
+\tpotential = {
+\t\thas_idea_group = hussite0
+\t\t
+\t\t\t
+\t}
+\tallow = {
+\t\tfull_idea_group = hussite0
+\t\thidden_trigger = {
+\t\tOR = {
+\t\thas_idea_group = katholisch0
+\t\thas_idea_group = protestant0
+\t\thas_idea_group = reformiert0
+\t\thas_idea_group = islam0
+\t\thas_idea_group = confuci0
+\t\thas_idea_group = budda0
+\t\thas_idea_group = cathar0
+\t\thas_idea_group = ancli0
+\t\thas_idea_group = orthodox0
+\t\thas_idea_group = tengri0
+\t\thas_idea_group = norse0
+\t\thas_idea_group = shinto0
+\t\thas_idea_group = coptic0
+\t\thas_idea_group = romuva0
+\t\thas_idea_group = suomi0
+\t\thas_idea_group = jew0
+\t\thas_idea_group = slav0
+\t\thas_idea_group = helle0 
+\t\thas_idea_group = mane0
+\t\thas_idea_group = animist0
+\t\thas_idea_group = feti0
+\t\thas_idea_group = zoro0
+\t\thas_idea_group = nahu0
+\t\thas_idea_group = mesoam0
+\t\thas_idea_group = inti0
+\t\thas_idea_group = tote0
+\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = hindu0
+\t\thas_idea_group = entwicklung0\t\t
+\t\thas_idea_group = justiz0
+\t\thas_idea_group = gesundheit0
+\t\thas_idea_group = monarchie0
+\t\thas_idea_group = republik0
+\t\thas_idea_group = aristo0
+\t\thas_idea_group = diktatur0
+\t\thas_idea_group = horde0
+\t\thas_idea_group = gross0
+\t\thas_idea_group = galle0
+\t\thas_idea_group = handel0
+\t\thas_idea_group = kolonialimperium0
+\t\thas_idea_group = assimilation0
+\t\thas_idea_group = gesellschaft0
+\t\thas_idea_group = propaganda0
+\t\thas_idea_group = flottenbasis0
+\t\thas_idea_group = nationalismus0
+\t\thas_idea_group = konigreich0
+\t\thas_idea_group = imperialismus0
+\t\thas_idea_group = generalstab0
+\t\thas_idea_group = stehendesheer0
+\t\thas_idea_group = wehrpflicht0
+\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = waffenqualitat0
+\t\thas_idea_group = festung0
+\t\thas_idea_group = kriegsproduktion0
+\t\thas_idea_group = staatsverwaltung0
+\t\thas_idea_group = zentra0
+\t\thas_idea_group = dezentra0 
+\t\thas_idea_group = formation0
+\t\thas_idea_group = militarismus0
+\t\thas_idea_group = shock0
+\t\thas_idea_group = fire0
+\t\thas_idea_group = innovativeness_ideas
+\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = dynasty0
+\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = offensive_ideas
+\t\thas_idea_group = defensive_ideas
+\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = economic_ideas
+\t\thas_idea_group = exploration_ideas
+\t\thas_idea_group = maritime_ideas 
+\t\thas_idea_group = quality_ideas
+\t\thas_idea_group = quantity_ideas
+\t\thas_idea_group = expansion_ideas
+\t\thas_idea_group = administrative_ideas
+\t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
+\t\t\t}
+\t\t}
+\t}
+\t
+\tchurch_power_modifier = 0.5
+\t
+\tai_will_do = {
+\t\tfactor = 1
+\t\t
+\t}
+}
+
+basic_idea_variation_act_60 = {
+
+\tmonarch_power = ADM
+
+\tpotential = {
+\t\thas_idea_group = alche0
+\t\t
+\t\t\t
+\t}
+\tallow = {
+\t\tfull_idea_group = alche0
+\t\thidden_trigger = {
+\t\tOR = {
+\t\thas_idea_group = katholisch0
+\t\thas_idea_group = protestant0
+\t\thas_idea_group = reformiert0
+\t\thas_idea_group = islam0
+\t\thas_idea_group = confuci0
+\t\thas_idea_group = budda0
+\t\thas_idea_group = cathar0
+\t\thas_idea_group = ancli0
+\t\thas_idea_group = orthodox0
+\t\thas_idea_group = tengri0
+\t\thas_idea_group = norse0
+\t\thas_idea_group = shinto0
+\t\thas_idea_group = coptic0
+\t\thas_idea_group = romuva0
+\t\thas_idea_group = suomi0
+\t\thas_idea_group = jew0
+\t\thas_idea_group = slav0
+\t\thas_idea_group = helle0 
+\t\thas_idea_group = mane0
+\t\thas_idea_group = animist0
+\t\thas_idea_group = feti0
+\t\thas_idea_group = zoro0
+\t\thas_idea_group = nahu0
+\t\thas_idea_group = mesoam0
+\t\thas_idea_group = inti0
+\t\thas_idea_group = tote0
+\t\thas_idea_group = religious_ideas
+\t\thas_idea_group = hindu0
+\t\thas_idea_group = entwicklung0\t\t
+\t\thas_idea_group = justiz0
+\t\thas_idea_group = gesundheit0
+\t\thas_idea_group = monarchie0
+\t\thas_idea_group = republik0
+\t\thas_idea_group = aristo0
+\t\thas_idea_group = diktatur0
+\t\thas_idea_group = horde0
+\t\thas_idea_group = gross0
+\t\thas_idea_group = galle0
+\t\thas_idea_group = handel0
+\t\thas_idea_group = kolonialimperium0
+\t\thas_idea_group = assimilation0
+\t\thas_idea_group = gesellschaft0
+\t\thas_idea_group = propaganda0
+\t\thas_idea_group = flottenbasis0
+\t\thas_idea_group = nationalismus0
+\t\thas_idea_group = konigreich0
+\t\thas_idea_group = imperialismus0
+\t\thas_idea_group = generalstab0
+\t\thas_idea_group = stehendesheer0
+\t\thas_idea_group = wehrpflicht0
+\t\thas_idea_group = soldnerheer0
+\t\thas_idea_group = waffenqualitat0
+\t\thas_idea_group = festung0
+\t\thas_idea_group = kriegsproduktion0
+\t\thas_idea_group = staatsverwaltung0
+\t\thas_idea_group = zentra0
+\t\thas_idea_group = dezentra0 
+\t\thas_idea_group = formation0
+\t\thas_idea_group = militarismus0
+\t\thas_idea_group = shock0
+\t\thas_idea_group = fire0
+\t\thas_idea_group = innovativeness_ideas
+\t\thas_idea_group = spy_ideas
+\t\thas_idea_group = dynasty0
+\t\thas_idea_group = influence_ideas
+\t\thas_idea_group = offensive_ideas
+\t\thas_idea_group = defensive_ideas
+\t\thas_idea_group = trade_ideas
+\t\thas_idea_group = economic_ideas
+\t\thas_idea_group = exploration_ideas
+\t\thas_idea_group = maritime_ideas 
+\t\thas_idea_group = quality_ideas
+\t\thas_idea_group = quantity_ideas
+\t\thas_idea_group = expansion_ideas
+\t\thas_idea_group = administrative_ideas
+\t\thas_idea_group = humanist_ideas
+\t\thas_idea_group = shia0
+\t\thas_idea_group = ibadi0
+\t\thas_idea_group = hussite0
+\t\thas_idea_group = alche0
+\t\t\t}
+\t\t}
+\t}
+\t
+\timprove_relation_modifier = 0.1
+\t
+\tai_will_do = {
+\t\tfactor = 1
+\t\t
+\t}
+}
 `
 
 
